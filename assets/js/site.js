@@ -19,18 +19,32 @@ $(document).ready(function () {
     var ht = $(".top-right").html();
     $(".que-viewport").prepend("<div class='top-right mb-top-right clearfix'> </div>").find(".top-right").prepend(ht);
     /*---------------------------------------*/
-    
-    $(document).click(function () {
-        $('.que-viewport').animate({
-           "left" : "100%",
-        },function(){
-            $(this).hide(0);
-        });
-    });
+
+//    $(document).click(function () {
+//        $('.que-viewport').animate({
+//            "left": "100%",
+//        }, function () {
+//            $(this).css({
+//                "left": "100%"
+//            });
+//        });
+//    });
     $('.que-viewport').click(function (event) {
         event.stopPropagation();
     });
-    $(".btn-slide").click(function(){
-        $('.que-viewport').css("left","0");
+    $(".btn-slide").click(function () {
+//        $('.que-viewport').css({
+//            "left": "auto",
+//            "right": "0"
+//        });
+        /*-------------------------------*/
+        var x = $(".que-viewport").offset().left;
+        alert(x)
+        if (x < $(window).width()) {
+            
+//            function (event) {
+//                event.stopPropagation();
+//            }
+        }
     });
 });
