@@ -19,32 +19,28 @@ $(document).ready(function () {
     var ht = $(".top-right").html();
     $(".que-viewport").prepend("<div class='top-right mb-top-right clearfix'> </div>").find(".top-right").prepend(ht);
     /*---------------------------------------*/
+    function queChart() {
+        
+        $('.que-viewport').click(function (event) {
+            event.stopPropagation();
+        });
+        $(".btn-slide").click(function () {
+            var x = $(".que-viewport").offset().left;
 
-//    $(document).click(function () {
-//        $('.que-viewport').animate({
-//            "left": "100%",
-//        }, function () {
-//            $(this).css({
-//                "left": "100%"
-//            });
-//        });
-//    });
-    $('.que-viewport').click(function (event) {
-        event.stopPropagation();
-    });
-    $(".btn-slide").click(function () {
-//        $('.que-viewport').css({
-//            "left": "auto",
-//            "right": "0"
-//        });
-        /*-------------------------------*/
-        var x = $(".que-viewport").offset().left;
-        alert(x)
-        if (x < $(window).width()) {
+            if (x >= $(window).width()) {
+                $('.que-viewport').animate({
+                     "right": "0"
+                });
+            }
+        });
+        $(document).click(function () {
+            var x = $(".que-viewport").offset().left;
+            if ($(this).hasClass("btn-slide")) { 
+               
+            }
             
-//            function (event) {
-//                event.stopPropagation();
-//            }
-        }
-    });
+        });
+    }
+    queChart();
+    /*------------------------------------*/
 });

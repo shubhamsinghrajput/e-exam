@@ -20,7 +20,7 @@
          <!-- Navbar links -->
             <div class="titile-time">
                 <h1 class="d-none d-sm-block">SSC - Sample Online Exam</h1>
-                <span class="remaining-time">Remaining Time :</span> <sapn class="view-time"> 00:25:18</sapn></span>
+                <span class="remaining-time">Remaining Time :</span> <sapn class="view-time"> 00:25:18</sapn>
             </div>
             <div class="entry-fill">
                 <p class="mb-0">

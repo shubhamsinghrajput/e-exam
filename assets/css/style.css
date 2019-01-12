@@ -491,6 +491,7 @@ img {
 /*=====================TAb======================*/
 @media all and (max-width: 767px) {
   body {
+    overflow-x: hidden;
     font-size: 13px;
   }
 
@@ -550,6 +551,7 @@ img {
     max-width: 80%;
     position: fixed;
     top: 0;
+    right: -100%;
     height: 100vh;
     overflow: auto;
     -webkit-flex: 1 0 215px;
