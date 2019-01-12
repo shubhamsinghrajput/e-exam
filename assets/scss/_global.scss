@@ -1,0 +1,43 @@
+ 
+:focus {
+    outline: none !important;
+}
+ 
+/*-----------------------------------*/
+img {
+    max-width: 100%;
+}
+
+[type="submit"] {
+    background: $bg-orange;
+    color: #fff;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.25) !important;
+}
+.clearfix:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/*================HEADE=================*/
+#header{
+    background: -webkit-linear-gradient(#7ed3fd,#e4f6ff);
+    background: -moz-linear-gradient(#7ed3fd,#e4f6ff);
+    background: -ms-linear-gradient(#7ed3fd,#e4f6ff);
+    background: -o-linear-gradient(#7ed3fd,#e4f6ff);
+    background: linear-gradient(#7ed3fd,#e4f6ff);
+    
+}
+.navbar-brand{
+    width: 20%;
+    max-width: 50px;
+    img{
+        display: block;
+    }
+}
+ 
+ 
