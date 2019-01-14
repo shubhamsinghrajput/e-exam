@@ -46,20 +46,19 @@ $(document).ready(function () {
 
 
     /*-----------------------------------------------*/
-        window.addEventListener('mouseup', function (event) {
-            var pol = document.getElementById('pol');
-             if (event.target != pol && event.target.parentNode != pol) {
-                pol.style.right = '-100%';
-            }
-        });
- 
     $(".btn-slide").click(function () {
         var x = $(".que-viewport").offset().left;
         if (x >= $(window).width()) {
-            $('.que-viewport').css({
+            $('.que-viewport').animate({
                 "right": "0"
             });
         }
+    });
+    $(".btn-slide-close").click(function () {
+        $('.que-viewport').animate({
+            "right": "-105%"
+        });
+
     });
     /*------------------------------------*/
 });

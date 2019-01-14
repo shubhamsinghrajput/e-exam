@@ -316,6 +316,10 @@ label.btn {
   background: transparent;
 }
 
+.btn-slide-close {
+  display: none;
+}
+
 .btn.btn-yellow {
   background: #ffbd65;
   border-color: #afabab;
@@ -548,17 +552,17 @@ img {
 /*=====================TAb======================*/
 @media all and (max-width: 559px) {
   .que-viewport {
-    max-width: 80%;
+    max-width: 100%;
     position: fixed;
     top: 0;
-    right: -100%;
-    height: 100vh;
+    right: -105%;
+    bottom: 0;
     overflow: auto;
-    -webkit-flex: 1 0 215px;
-    -moz-flex: 1 0 215px;
-    -ms-flex: 1 0 215px;
-    -o-flex: 1 0 215px;
-    flex: 1 0 215px;
+    -webkit-flex: 1 0 100%;
+    -moz-flex: 1 0 100%;
+    -ms-flex: 1 0 100%;
+    -o-flex: 1 0 100%;
+    flex: 1 0 100%;
     -webkit-box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.5);
     -ms-box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.5);
@@ -577,7 +581,13 @@ img {
     padding-bottom: 30px;
   }
 
-  .btn-slide {
+  .que-no-list {
+    min-height: auto;
+    height: 250px;
+    overflow: auto;
+  }
+
+  .btn-slide, .btn-slide-close {
     width: 50px;
     text-align: center;
     height: 30px;
@@ -588,6 +598,13 @@ img {
     bottom: 0px;
     right: 0px;
     font-size: 22px;
+  }
+
+  .btn-slide-close {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: block;
   }
 
   .navbar-brand {
@@ -643,6 +660,10 @@ img {
 
   .que-option {
     padding-left: 0.5rem;
+  }
+
+  .profile-part {
+    padding-top: 35px !important;
   }
 }
 

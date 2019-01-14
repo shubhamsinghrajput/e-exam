@@ -38,7 +38,7 @@
 
             </div>
             <div class="top-right">
-                <div class="float-left pt-4">
+                <div class="float-left pt-4 profile-part">
                     <p class="mb-0">
                         <span>Lad No. </span>
                         <span>: 1 </span>
@@ -62,7 +62,7 @@
             <div class="d-flex que-chart" style="margin:0 -15px">
                 <div class="pl-2 pr-2 q-con-wrapper">
                     <div class="que-counter justify-content-between card c-card">
-                        <h2 class="mb-0">Question No: 1</h2>
+                        <h2 class="mb-0">Question No: <span class="que-no">1</span></h2>
                         <ul class="right-listing">
                             <li><a href="#" class="font-inc"><img src="assets/img/increase.png" alt=""></a></li>
                             <li><a href="#" class="font-dec"><img src="assets/img/decrease.png" alt=""></a></li>
@@ -88,7 +88,7 @@
                             <li>Life Begins at The End Of Your Comfort Zone</li>
                         </ol>
                     </div>
-                    <button class="btn-slide"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    <a class="btn-slide"><i class="fa fa-arrow-left"></i></a>
                 </div>
                 <aside class=" pl-2 pr-2 que-viewport"  id="pol">
                     <div class="que-type-list clearfix">
@@ -135,6 +135,8 @@
                         <li><a href="#" class="">33</a></li>
                         <li><a href="#" class="">34</a></li>
                     </ul>
+                    <!--============button for close sidebar===========-->
+                    <a class="btn-slide-close "><i class="fa fa-arrow-right" ></i></a>
                 </aside>
             </div>
             <div class="btn-wrapper pt-3 pb-3">
