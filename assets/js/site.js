@@ -52,12 +52,7 @@ $(document).ready(function () {
                 pol.style.right = '-100%';
             }
         });
-//    window.addEventListener('mouseup', function (event) {
-//        var pol = document.getElementById('pol');
-//        if (event.target != pol && event.target.childNodes != pol) {
-//            $(".que-viewport").css("right","-100%");
-//        }
-//    });
+ 
     $(".btn-slide").click(function () {
         var x = $(".que-viewport").offset().left;
         if (x >= $(window).width()) {
