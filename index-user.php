@@ -5,7 +5,7 @@
     <title>SSC and NDA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -175,9 +175,9 @@
         <li></li>
     </ul>
     <!--==================================================-->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <script src="assets/js/site.js"></script>
 </body>
