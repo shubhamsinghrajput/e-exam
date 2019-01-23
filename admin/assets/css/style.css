@@ -25,8 +25,16 @@ img {
 }
 
 /*================HEADER=================*/
+.navbar {
+  background: #29405d !important;
+}
+
 .navbar-brand {
   width: auto;
+}
+
+.pd-fix {
+  padding-top: 3.5rem;
 }
 
 /*================GLOBAL RESPONSIVE=================*/
@@ -76,56 +84,23 @@ ol {
 }
 
 /*==============REGULAR  CSS===============*/
+.sidebar-wapper {
+  text-align: right;
+  background: #3c5574;
+}
+.sidebar-wapper .sidebar {
+  background: transparent;
+}
+
 /*===============================================*/
-/*================GLOBAL STYLESHEET=================*/
-:focus {
-  outline: none !important;
-}
-
-/*-----------------------------------*/
-img {
-  max-width: 100%;
-}
-
-[type=submit] {
-  background: #bd5d38;
-  color: #fff;
-  width: 100%;
-}
-
-::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.25) !important;
-}
-
-.clearfix:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-/*================HEADER=================*/
-.navbar-brand {
-  width: auto;
-}
-
-/*================GLOBAL RESPONSIVE=================*/
-@media all and (max-width: 768px) {
-  .social-nav {
-    position: absolute;
-    right: 75px;
-    top: 8px;
-  }
-
-  .navbar-brand {
-    width: auto;
-  }
-
-  .navbar-toggler {
-    font-size: 18px;
-  }
-}
 /*===============RESPONSIVE CODE================*/
 /*=====================TAb======================*/
+/*=====================TAb======================*/
+@media all and (max-width: 767px) {
+  .sidebar-wapper {
+    text-align: center;
+  }
+}
 /*=====================MOBILE=========================*/
 /*=====================TAb======================*/
 
