@@ -26,11 +26,12 @@ img {
 
 /*================HEADER=================*/
 .navbar {
-  background: #29405d !important;
+  background: #020001 !important;
 }
 
 .navbar-brand {
-  width: auto;
+  width: 20%;
+  max-width: 125px;
 }
 
 .pd-fix {
@@ -86,7 +87,7 @@ ol {
 /*==============REGULAR  CSS===============*/
 .sidebar-wapper {
   text-align: right;
-  background: #3c5574;
+  background: #0c1e33;
 }
 .sidebar-wapper .sidebar {
   background: transparent;
