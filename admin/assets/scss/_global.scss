@@ -24,6 +24,31 @@ img {
 }
 
 /*================HEADER=================*/
+.navbar-brand{
+        width: auto;
+    }
  
  
- 
+
+
+
+
+
+
+
+
+
+/*================GLOBAL RESPONSIVE=================*/
+@media all and (max-width:768px){
+    .social-nav{
+        position: absolute;
+        right: 75px;
+        top: 8px;
+    }
+    .navbar-brand{
+        width: auto;
+    }
+    .navbar-toggler {
+     font-size: 18px;
+    }
+}
