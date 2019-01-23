@@ -93,6 +93,14 @@ ol {
   background: transparent;
 }
 
+.card-body-icon {
+  position: absolute;
+}
+
+.card-body .dropdown {
+  max-width: 200px;
+}
+
 /*===============================================*/
 /*===============RESPONSIVE CODE================*/
 /*=====================TAb======================*/
