@@ -93,6 +93,10 @@ ol {
   background: transparent;
 }
 
+.links-blog .h5 {
+  font-size: 16px;
+}
+
 .card-body-icon {
   position: absolute;
 }
