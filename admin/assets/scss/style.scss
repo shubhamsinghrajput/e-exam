@@ -3,43 +3,7 @@
 @import "global.scss";
 
 /*===============STYLE CODE================*/
-h1 {
-    font-size: 25px;
-    margin-bottom: 0;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-ul,
-ol {
-    list-style-type: none;
-}
-
-*,
-*:after,
-*:before {
-    margin: 0;
-    padding: 0;
-}
- 
-.clearfix:after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-/*==============REGULAR  CSS===============*/
-.sidebar-wapper{
-    text-align: right;
-    background: $bg-light-blue;
-    .sidebar {
-        background: $trpt;
-    }
-}    
+  
 .links-blog{
     .h5{
         font-size: 16px;
