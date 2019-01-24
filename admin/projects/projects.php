@@ -55,9 +55,10 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Dashboard</span>
+                        <span>Categories</span>
                     </a>
                 </li>
+<!--
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-fw fa-folder"></i>
@@ -74,15 +75,16 @@
                         <a class="dropdown-item" href="blank.html">Blank Page</a>
                     </div>
                 </li>
+-->
                 <li class="nav-item">
                     <a class="nav-link" href="charts.html">
                         <i class="fas fa-fw fa-chart-area"></i>
-                        <span>Charts</span></a>
+                        <span>All Projects</span></a><span class="badge badge-danger">5</span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
                         <i class="fas fa-fw fa-table"></i>
-                        <span>Tables</span></a>
+                        <span>No Category</span></a><span class="badge badge-danger">10</span>
                 </li>
             </ul>
         </div>
@@ -99,7 +101,18 @@
                 <!-- DataTables Example -->
                 
 <!--                ------------------------------------------------------------------------------->
-           
+                <div class="col-md-12" style="border-bottom:5px solid #ddd">
+                    <span>Active</span> <span class="badge badge-secondary">5</span>                    
+                    <span class="ml-20 mr-50">Current</span> <span class="badge badge-secondary">5</span>             
+          </div>               
+               
+                <div class="row"> <i class="fa fa-ellipsis-v" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft)</span> - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></div>
+                
+                <div class="row">
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <span>AIIMS - (Vistasoft)</span> - <small class="text-muted">Updated, Thrusday Jan 24 2019</small>
+                </div>
+                
+<!--                <i class="fa fa-star" aria-hidden="true"></i> -->
             </div>
             <!-- /.container-fluid -->
             <!-- Sticky Footer -->
