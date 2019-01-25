@@ -101,28 +101,28 @@
 
                 <!--                ------------------------------------------------------------------------------->
                  
-                <ul class="nav nav-tabs" role="tablist" style="border-bottom:5px solid #ddd">
+                <ul class="nav nav-tabs bd-5" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#active"><span>Active</span> <span class="badge badge-secondary">1</span></a>
+                        <a class="nav-link active" data-toggle="tab" href="#active"><span>Active</span> <span class="badge badge-danger ">1</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#current"><span>Current</span> <span class="badge badge-secondary">1</span></a>
+                        <a class="nav-link" data-toggle="tab" href="#current"><span>Current</span> <span class="badge badge-danger">1</span></a>
                     </li>
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div id="active" class="container tab-pane active"><br>
+                    <div id="active" class="tab-pane active ml-5 mr-5"><br>
                         <div class="row">
-                            <div class="col-12"><h1 class="mb-10">Active</h1>
-                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                            <div class="col-12"><h1 class="mb-2">Active</h1>
+                                <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
                             </div>
                         </div>
                     </div>
-                    <div id="current" class="container tab-pane fade"><br>
+                    <div id="current" class=" tab-pane fade  ml-5 mr-5"><br>
                         <div class="row">
-                            <div class="col-12"><h1 class="mb-10">Current</h1>
-                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>  <span>SSC - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                            <div class="col-12"><h1 class="mb-2">Current</h1>
+                                <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
                             </div>
                         </div>
                     </div>

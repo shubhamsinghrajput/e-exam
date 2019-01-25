@@ -105,6 +105,32 @@ ol {
   max-width: 200px;
 }
 
+.sidebar.navbar-nav .nav-item {
+  text-align: left;
+  overflow: auto;
+}
+.sidebar.navbar-nav .nav-link {
+  display: inline-block;
+  width: auto;
+}
+.sidebar.navbar-nav .badge {
+  float: right;
+  margin-top: 22px;
+  margin-right: 12px;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+}
+.nav-tabs .nav-link.active {
+  background: #666;
+  color: #ffff;
+}
+
+.bd-5 {
+  border-bottom: 5px solid #ddd;
+}
+
 /*===============================================*/
 
 /*# sourceMappingURL=style.css.map */

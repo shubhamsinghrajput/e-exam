@@ -75,6 +75,10 @@ ol {
   padding-top: 3.5rem;
 }
 
+.breadcrumb-item a {
+  color: #020001;
+}
+
 /*================GLOBAL RESPONSIVE=================*/
 @media all and (max-width: 768px) {
   .social-nav {
