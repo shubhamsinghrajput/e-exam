@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="current" class=" tab-pane fade  ml-5 mr-5"><br>
+                    <div id="current" class="tab-pane fade  ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12"><h1 class="mb-2">Current</h1>
                                 <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
