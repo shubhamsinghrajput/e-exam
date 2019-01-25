@@ -61,8 +61,48 @@
 .bd-5 {
     border-bottom: 5px solid #ddd;
 }
-
-
+.nav-tabs{
+    .nav-link{
+        text-transform: uppercase;
+    }
+}
+        .right{
+           color:green;
+            font-size:30px;
+            text-align:center;
+        }
+        .wrong{
+            color:red; 
+            font-size:30px;
+            text-align:center;
+        }
+        th { 
+            text-align:center;
+        }    
+        .popup-content{
+            display: none;
+            max-width: 350px;
+            max-height: 350px;
+            min-height: 100px;
+            min-width: 100px;
+            background: #f5f7fb;
+             position: absolute;
+            margin-top: 5px;
+            padding-right: 25px;
+          }
+        
+.popup-content:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #f5f7fb;
+    border: 1px solid #d6d8db;
+    border-width: 1px 0 0 1px;
+    transform: rotate(45deg);
+     top: -8px;
+    left: 25px;
+ }
 
 
 
