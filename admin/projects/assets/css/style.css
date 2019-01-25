@@ -97,6 +97,13 @@ ol {
   }
 }
 /*===============STYLE CODE================*/
+.breadcrumb-item {
+  color: #333;
+}
+.breadcrumb-item a {
+  color: #666;
+}
+
 .card-body-icon {
   position: absolute;
 }
