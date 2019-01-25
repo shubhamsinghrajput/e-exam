@@ -98,7 +98,7 @@ ol {
 }
 /*===============STYLE CODE================*/
 .breadcrumb-item {
-  color: #333;
+  color: #0a0a0a;
 }
 .breadcrumb-item a {
   color: #666;
@@ -124,6 +124,14 @@ ol {
   float: right;
   margin-top: 22px;
   margin-right: 12px;
+}
+
+.sidebar-toggled .sidebar.navbar-nav .badge {
+  float: none;
+  margin: 0 auto;
+}
+.sidebar-toggled .sidebar .nav-item {
+  text-align: center;
 }
 
 .nav-tabs .nav-link {

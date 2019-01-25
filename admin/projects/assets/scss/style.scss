@@ -4,7 +4,7 @@
 /*===============STYLE CODE================*/
 
 .breadcrumb-item {
-    color: #333;
+    color: #0a0a0a;
 
     a {
         color: #666;
@@ -40,7 +40,15 @@
     }
 
 }
-
+.sidebar-toggled{
+    .sidebar.navbar-nav .badge{
+        float: none;
+        margin: 0 auto;
+     }
+    .sidebar .nav-item{
+        text-align: center;
+    }
+}
 .nav-tabs .nav-link {
     color: #333;
 
