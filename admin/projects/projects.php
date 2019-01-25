@@ -58,7 +58,7 @@
                         <span>Categories</span>
                     </a>
                 </li>
-<!--
+                <!--
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-fw fa-folder"></i>
@@ -98,21 +98,36 @@
                     </li>
                     <li class="breadcrumb-item active">Projects</li>
                 </ol>
-                <!-- DataTables Example -->
-                
-<!--                ------------------------------------------------------------------------------->
-                <div class="col-md-12" style="border-bottom:5px solid #ddd">
-                    <span>Active</span> <span class="badge badge-secondary">5</span>                    
-                    <span class="ml-20 mr-50">Current</span> <span class="badge badge-secondary">5</span>             
-          </div>               
-               
-                <div class="row"> <i class="fa fa-ellipsis-v" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft)</span> - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></div>
-                
-                <div class="row">
-                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <span>AIIMS - (Vistasoft)</span> - <small class="text-muted">Updated, Thrusday Jan 24 2019</small>
+
+                <!--                ------------------------------------------------------------------------------->
+                 
+                <ul class="nav nav-tabs" role="tablist" style="border-bottom:5px solid #ddd">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#active"><span>Active</span> <span class="badge badge-secondary">1</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#current"><span>Current</span> <span class="badge badge-secondary">1</span></a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="active" class="container tab-pane active"><br>
+                        <div class="row">
+                            <div class="col-12"><h1 class="mb-10">Active</h1>
+                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="current" class="container tab-pane fade"><br>
+                        <div class="row">
+                            <div class="col-12"><h1 class="mb-10">Current</h1>
+                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>  <span>SSC - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-<!--                <i class="fa fa-star" aria-hidden="true"></i> -->
+            </div>
             </div>
             <!-- /.container-fluid -->
             <!-- Sticky Footer -->
@@ -125,7 +140,7 @@
             </footer>
         </div>
         <!-- /.content-wrapper -->
-    </div>
+   
     <!-- /#wrapper -->
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -152,11 +167,11 @@
     <!-- Bootstrap core JavaScript-->
     <script src="../../assets/vendor/jquery/jquery.min.js"></script>
     <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- Custom scripts for all pages-->
     <script src="../../assets/js/sb-admin.min.js"></script>
 
- 
+
 
 </body>
 
