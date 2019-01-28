@@ -96,7 +96,7 @@
                             <div class="col-12">
                                 <h1 class="mb-2">Active Tasks</h1>
                                 <div class="popup-wrapper">
-                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i> Click</a>
+                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
                                     <div class="popup-content alert alert-secondary alert-dismissible fade show">
                                         <h1>hello World</h1>
                                     </div>
