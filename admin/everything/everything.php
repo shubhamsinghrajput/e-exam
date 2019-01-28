@@ -22,6 +22,7 @@
 
     <!-- Custom styles for this template-->
     <link href="../../assets/css/sb-admin.css" rel="stylesheet">
+     <link href="../assets/css/global.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
  
 

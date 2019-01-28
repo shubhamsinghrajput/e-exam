@@ -1,6 +1,7 @@
 @import "../../../assets/scss/variables.scss";
 @import "../../../assets/scss/mixins.scss";
 @import "../../../assets/scss/global.scss";
+@import "../../../assets/scss/global.scss";
 /*===============STYLE CODE================*/
 
 .breadcrumb-item {
@@ -88,17 +89,18 @@ th {
 }
 .popup-wrapper{
     position: relative;
+    display: inline-block;
 }
 .popup-content {
     display: none;
     max-width: 350px;
     max-height: 350px;
     min-height: 100px;
-    min-width: 100px;
+    min-width: 200px;
     background: #f5f7fb;
     position: absolute;
     margin-top: 5px;
-    padding-right: 25px;
+    padding-right: 25px;    
     left: -15px;
 }
 
