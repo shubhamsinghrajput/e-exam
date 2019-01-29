@@ -83,7 +83,37 @@ ol {
     color: #020001; 
 }
 
+/*=========CUSTOM POPOVER==========*/   
 
+.popup-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.popup-content {
+    display: none;
+    max-width: 350px;
+    max-height: 350px;
+    min-height: 100px;
+    min-width: 200px;
+    background: #f5f7fb;
+    position: absolute;
+    margin-top: 5px;
+    padding-right: 25px;    
+    left: -15px;
+}
+
+.popup-content:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #f5f7fb;
+    border: 1px solid #d6d8db;
+    border-width: 1px 0 0 1px;
+    transform: rotate(45deg);
+    top: -8px;
+    left: 10px;
+}
 
 
 

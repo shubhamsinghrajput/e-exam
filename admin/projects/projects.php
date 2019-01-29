@@ -116,14 +116,26 @@
                     <div id="active" class="tab-pane active ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12"><h1 class="mb-2">Active</h1>
-                                <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                <div class="popup-wrapper">
+                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                        <h1>hello World</h1>
+                                    </div>
+                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div id="current" class="tab-pane fade  ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12"><h1 class="mb-2">Current</h1>
-                                <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i>  <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                               <div class="popup-wrapper">
+                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                        <h1>hello World</h1>
+                                    </div>
+                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -172,6 +184,13 @@
     <!-- Custom scripts for all pages-->
     <script src="../../assets/js/sb-admin.min.js"></script>
 
+ <script>
+        $(document).ready(function() {
+            $('.popup-btn').click(function() {
+                $(this).next(".popup-content").toggle();
+            });
+        });
+    </script>
 
 
 </body>
