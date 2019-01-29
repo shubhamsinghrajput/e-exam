@@ -73,26 +73,19 @@
 
                 <ul class="nav nav-tabs bd-5" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#activeTasks"><span>Active Tasks</span> <span class="badge badge-danger ">1</span></a>
+                        <a class="nav-link active" data-toggle="tab" href="#compines">compines</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#currentTasks"><span>Completed Tasks</span> <span class="badge badge-danger">1</span></a>
+                        <a class="nav-link" data-toggle="tab" href="#people">people</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#milestones"><span>Milestones</span> <span class="badge badge-danger">1</span></a>
+                        <a class="nav-link" data-toggle="tab" href="#login-history">login history</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#files"><span>Files</span> <span class="badge badge-danger">1</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#time"><span>Time</span> <span class="badge badge-danger">1</span></a>
-                    </li>
-
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div id="activeTasks" class="tab-pane active ml-5 mr-5"><br>
+                    <div id="compines" class="tab-pane active ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
                                 <h1 class="mb-2">Active Tasks</h1>
@@ -106,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="currentTasks" class="tab-pane fade ml-5 mr-5"><br>
+                    <div id="people" class="tab-pane fade ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
                                 <h1 class="mb-2">Current Tasks</h1>
@@ -120,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="milestones" class="tab-pane fade ml-5 mr-5"><br>
+                    <div id="login-history" class="tab-pane fade ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
                                 <h1 class="mb-2">Milestones</h1>
@@ -134,35 +127,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="files" class="tab-pane fade ml-5 mr-5"><br>
-                        <div class="row">
-                            <div class="col-12">
-                                <h1 class="mb-2">Files</h1>
-                                <div class="popup-wrapper">
-                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                        <h1>hello World</h1>
-                                    </div>
-                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="time" class="tab-pane fade ml-5 mr-5"><br>
-                        <div class="row">
-                            <div class="col-12">
-                                <h1 class="mb-2">Time</h1>
-                                <div class="popup-wrapper">
-                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                        <h1>hello World</h1>
-                                    </div>
-                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                 </div>
             </div>
         </div>
