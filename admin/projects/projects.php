@@ -59,24 +59,6 @@
                         <span>Categories</span>
                     </a>
                 </li>
-                <!--
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-fw fa-folder"></i>
-                        <span>Pages</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                        <h6 class="dropdown-header">Login Screens:</h6>
-                        <a class="dropdown-item" href="login.html">Login</a>
-                        <a class="dropdown-item" href="register.html">Register</a>
-                        <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-                        <div class="dropdown-divider"></div>
-                        <h6 class="dropdown-header">Other Pages:</h6>
-                        <a class="dropdown-item" href="404.html">404 Page</a>
-                        <a class="dropdown-item" href="blank.html">Blank Page</a>
-                    </div>
-                </li>
--->
                 <li class="nav-item">
                     <a class="nav-link" href="charts.html">
                         <i class="fas fa-fw fa-chart-area"></i>
@@ -108,6 +90,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#current"><span>Current</span> <span class="badge badge-danger">1</span></a>
+                    <li class="ml-auto"><button class="btn btn-success" href="#" data-toggle="modal" data-target="#addProject"><i class="fa fa-plus-circle"></i> Add Project</button>
                     </li>
                 </ul>
 
@@ -161,6 +144,86 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
+    <!-- Add Project Modal-->
+    <div class="modal fade bd-example-modal-lg" id="addProject" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom border-secondary">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Project</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="col-12">
+                        <form>
+                            <div class="form-group">
+
+                                <label for="project-name" class="col-form-label">What's the Project Name?</label>
+                                <input type="text" class="form-control" id="project-name">
+                                <!--------------------------------------------------------------------------------->
+
+                                <ul class="nav nav-tabs bd-5" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#description"><span>Description</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#people"><span>People</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#dates"><span>Dates</span></a>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div id="description" class="tab-pane active ml-4 mr-4"><br>
+                                        <div class="row">
+                                                <label for="description" class="col-form-label">Provide a Description (Optional):</label>
+                                                <textarea class="form-control" id="description"></textarea>
+                                        </div>
+                                    </div>
+                                    <div id="people" class="tab-pane fade ml-4 mr-4"><br>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h1 class="mb-2">Currentfff</h1>
+                                                <div class="popup-wrapper">
+                                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                                        <h1>hello Worldddd</h1>
+                                                    </div>
+                                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="dates" class="tab-pane fade ml-4 mr-4"><br>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h1 class="mb-2">Currentss</h1>
+                                                <div class="popup-wrapper">
+                                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                                        <h1>hello Worldsss</h1>
+                                                    </div>
+                                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer border-top border-secondary">
+                    <button class="btn btn-info mr-auto" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-success" type="button">Add Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
