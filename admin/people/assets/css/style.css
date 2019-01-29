@@ -1,0 +1,104 @@
+/*===============STYLE CODE================*/
+.breadcrumb-item {
+  color: #0a0a0a;
+}
+.breadcrumb-item a {
+  color: #666;
+}
+
+.card-body-icon {
+  position: absolute;
+}
+
+.card-body .dropdown {
+  max-width: 200px;
+}
+
+.sidebar.navbar-nav .nav-item {
+  text-align: left;
+  overflow: auto;
+}
+.sidebar.navbar-nav .nav-link {
+  display: inline-block;
+  width: auto;
+}
+.sidebar.navbar-nav .badge {
+  float: right;
+  margin-top: 22px;
+  margin-right: 12px;
+}
+
+.sidebar-toggled .sidebar.navbar-nav .badge {
+  float: none;
+  margin: 0 auto;
+}
+.sidebar-toggled .sidebar .nav-item {
+  text-align: center;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+}
+.nav-tabs .nav-link.active {
+  background: #666;
+  color: #ffff;
+}
+
+.bd-5 {
+  border-bottom: 5px solid #ddd;
+}
+
+.nav-tabs .nav-link {
+  text-transform: uppercase;
+}
+
+.right {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+}
+
+.wrong {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+}
+
+.popup-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.popup-content {
+  display: none;
+  max-width: 350px;
+  max-height: 350px;
+  min-height: 100px;
+  min-width: 200px;
+  background: #f5f7fb;
+  position: absolute;
+  margin-top: 5px;
+  padding-right: 25px;
+  left: -15px;
+}
+
+.popup-content:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #f5f7fb;
+  border: 1px solid #d6d8db;
+  border-width: 1px 0 0 1px;
+  transform: rotate(45deg);
+  top: -8px;
+  left: 10px;
+}
+
+/*===============================================*/
+
+/*# sourceMappingURL=style.css.map */
