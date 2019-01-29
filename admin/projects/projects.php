@@ -93,7 +93,7 @@
         <div id="content-wrapper">
             <div class="container-fluid">
                 <!-- Breadcrumbs-->
-                <ol class="breadcrumb ">               
+                <ol class="breadcrumb ">
                     <li class="breadcrumb-item">
                         <a href="#">Dashboard</a>
                     </li>
@@ -101,7 +101,7 @@
                 </ol>
 
                 <!--------------------------------------------------------------------------------->
-                 
+
                 <ul class="nav nav-tabs bd-5" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#active"><span>Active</span> <span class="badge badge-danger ">1</span></a>
@@ -115,7 +115,8 @@
                 <div class="tab-content">
                     <div id="active" class="tab-pane active ml-5 mr-5"><br>
                         <div class="row">
-                            <div class="col-12"><h1 class="mb-2">Active</h1>
+                            <div class="col-12">
+                                <h1 class="mb-2">Active</h1>
                                 <div class="popup-wrapper">
                                     <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
                                     <div class="popup-content alert alert-secondary alert-dismissible fade show">
@@ -128,8 +129,9 @@
                     </div>
                     <div id="current" class="tab-pane fade  ml-5 mr-5"><br>
                         <div class="row">
-                            <div class="col-12"><h1 class="mb-2">Current</h1>
-                               <div class="popup-wrapper">
+                            <div class="col-12">
+                                <h1 class="mb-2">Current</h1>
+                                <div class="popup-wrapper">
                                     <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
                                     <div class="popup-content alert alert-secondary alert-dismissible fade show">
                                         <h1>hello World</h1>
@@ -141,19 +143,19 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <!-- /.container-fluid -->
-            <!-- Sticky Footer -->
-            <footer class="sticky-footer">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright © Your Website 2018</span>
-                    </div>
-                </div>
-            </footer>
         </div>
-        <!-- /.content-wrapper -->
-   
+        <!-- /.container-fluid -->
+        <!-- Sticky Footer -->
+        <footer class="sticky-footer">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                    <span>Copyright © Your Website 2018</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /.content-wrapper -->
+
     <!-- /#wrapper -->
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -161,7 +163,7 @@
     </a>
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
@@ -184,7 +186,7 @@
     <!-- Custom scripts for all pages-->
     <script src="../../assets/js/sb-admin.min.js"></script>
 
- <script>
+    <script>
         $(document).ready(function() {
             $('.popup-btn').click(function() {
                 $(this).next(".popup-content").toggle();
