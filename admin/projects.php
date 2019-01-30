@@ -111,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="current" class="tab-pane fade  ml-5 mr-5"><br>
+                    <div id="current" class="tab-pane fade ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
                                 <h1 class="mb-2">Current</h1>
@@ -190,13 +190,11 @@
                                         </div>
                                         <div id="people" class="tab-pane fade ml-4 mr-4"><br>
                                             <div class="row">
-                                                <div class="col-12">
-                                                    <div class="popup-wrapper">
-                                                        <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                                        <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                                            <h1>hello Worldddd</h1>
-                                                        </div>
-                                                        <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                                <label for="description" class="col-form-label">Who should be added to this project?</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="Search existing users..." aria-label="Search existing users...">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
                                                     </div>
                                                 </div>
                                             </div>
