@@ -159,55 +159,58 @@
                     <div class="col-12">
                         <form>
                             <div class="form-group">
-
-                                <label for="project-name" class="col-form-label">What's the Project Name?</label>
-                                <input type="text" class="form-control" id="project-name">
+                                    
+                                <div class="row">
+                                    <label for="project-name" class="col-form-label">What's the Project Name?</label>
+                                    <input type="text" class="form-control" id="project-name">
+                                </div>
                                 <!--------------------------------------------------------------------------------->
 
-                                <ul class="nav nav-tabs bd-5" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#description"><span>Description</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#people"><span>People</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#dates"><span>Dates</span></a>
-                                    </li>
-                                </ul>
-
-                                <!-- Tab panes -->
-                                <div class="tab-content">
-                                    <div id="description" class="tab-pane active ml-4 mr-4"><br>
-                                        <div class="row">
+                                <div class="container-fluid mt-3">
+                                    <ul class="nav nav-tabs bd-5" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#description"><span>Description</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#people"><span>People</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>Dates</span></a>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div id="description" class="tab-pane active ml-4 mr-4"><br>
+                                            <div class="row">
                                                 <label for="description" class="col-form-label">Provide a Description (Optional):</label>
                                                 <textarea class="form-control" id="description"></textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div id="people" class="tab-pane fade ml-4 mr-4"><br>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h1 class="mb-2">Currentfff</h1>
-                                                <div class="popup-wrapper">
-                                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                                        <h1>hello Worldddd</h1>
+                                        <div id="people" class="tab-pane fade ml-4 mr-4"><br>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="popup-wrapper">
+                                                        <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                                        <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                                            <h1>hello Worldddd</h1>
+                                                        </div>
+                                                        <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
                                                     </div>
-                                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div id="dates" class="tab-pane fade ml-4 mr-4"><br>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h1 class="mb-2">Currentss</h1>
-                                                <div class="popup-wrapper">
-                                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                                        <h1>hello Worldsss</h1>
+                                        <div id="dates" class="tab-pane fade ml-4 mr-4"><br>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h1 class="mb-2">Currentss</h1>
+                                                    <div class="popup-wrapper">
+                                                        <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                                        <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                                            <h1>hello Worldsss</h1>
+                                                        </div>
+                                                        <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
                                                     </div>
-                                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
                                                 </div>
                                             </div>
                                         </div>
