@@ -12,24 +12,24 @@
     <title> Admin - Review</title>
 
     <!-- Bootstrap core CSS-->
-    <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
-    <link href="../../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Page level plugin CSS-->
-    <link href="../../assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="../assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="../../assets/css/sb-admin.css" rel="stylesheet">
-    <link href="../assets/css/global.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/sb-admin.css" rel="stylesheet">
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/everything.css" rel="stylesheet">
 
 
 </head>
 
 <body id="page-top" class="pd-fix">
-    <?php include '../nav.php';?>
+    <?php include 'nav.php';?>
 
     <div id="wrapper">
         <!-- Sidebar -->
@@ -73,19 +73,26 @@
 
                 <ul class="nav nav-tabs bd-5" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#compines">compines</a>
+                        <a class="nav-link active" data-toggle="tab" href="#activeTasks"><span>Active Tasks</span> <span class="badge badge-danger ">1</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#people">people</a>
+                        <a class="nav-link" data-toggle="tab" href="#currentTasks"><span>Completed Tasks</span> <span class="badge badge-danger">1</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#login-history">login history</a>
+                        <a class="nav-link" data-toggle="tab" href="#milestones"><span>Milestones</span> <span class="badge badge-danger">1</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#files"><span>Files</span> <span class="badge badge-danger">1</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#time"><span>Time</span> <span class="badge badge-danger">1</span></a>
+                    </li>
+
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div id="compines" class="tab-pane active ml-5 mr-5"><br>
+                    <div id="activeTasks" class="tab-pane active ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
                                 <h1 class="mb-2">Active Tasks</h1>
@@ -99,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="people" class="tab-pane fade ml-5 mr-5"><br>
+                    <div id="currentTasks" class="tab-pane fade ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
                                 <h1 class="mb-2">Current Tasks</h1>
@@ -113,7 +120,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="login-history" class="tab-pane fade ml-5 mr-5"><br>
+                    <div id="milestones" class="tab-pane fade ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
                                 <h1 class="mb-2">Milestones</h1>
@@ -127,7 +134,35 @@
                             </div>
                         </div>
                     </div>
-                    
+                    <div id="files" class="tab-pane fade ml-5 mr-5"><br>
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="mb-2">Files</h1>
+                                <div class="popup-wrapper">
+                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                        <h1>hello World</h1>
+                                    </div>
+                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="time" class="tab-pane fade ml-5 mr-5"><br>
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="mb-2">Time</h1>
+                                <div class="popup-wrapper">
+                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
+                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
+                                        <h1>hello World</h1>
+                                    </div>
+                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -167,10 +202,10 @@
         </div>
     </div>
     <!-- Bootstrap core JavaScript-->
-    <script src="../../assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="../../assets/js/sb-admin.min.js">
+    <script src="../assets/js/sb-admin.min.js">
     </script>
     <script>
         $(document).ready(function() {
