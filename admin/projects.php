@@ -160,7 +160,7 @@
                     <div class="col-12">
                         <form>
                             <div class="form-group">
-                                    
+
                                 <div class="row">
                                     <label for="project-name" class="col-form-label">What's the Project Name?</label>
                                     <input type="text" class="form-control" id="project-name">
@@ -179,7 +179,7 @@
                                             <a class="nav-link" data-toggle="tab" href="#dates"><span>Dates</span></a>
                                         </li>
                                     </ul>
-                                    
+
                                     <!-- Tab panes -->
                                     <div class="tab-content">
                                         <div id="description" class="tab-pane active ml-4 mr-4"><br>
@@ -192,6 +192,7 @@
                                             <div class="row">
                                                 <label for="description" class="col-form-label">Who should be added to this project?</label>
                                                 <div class="input-group">
+
                                                     <input type="text" class="form-control" placeholder="Search existing users..." aria-label="Search existing users...">
                                                     <div class="input-group-append">
                                                         <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
@@ -201,15 +202,17 @@
                                         </div>
                                         <div id="dates" class="tab-pane fade ml-4 mr-4"><br>
                                             <div class="row">
-                                                <div class="col-12">
-                                                    <h1 class="mb-2">Currentss</h1>
-                                                    <div class="popup-wrapper">
-                                                        <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                                        <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                                            <h1>hello Worldsss</h1>
-                                                        </div>
-                                                        <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
-                                                    </div>
+                                                <h4 class="text-muted">Project Dates (Optional)</h4>
+                                                <label for="description" class="col-form-label text-muted">Adding a start and end date provides your team a useful way to see the duration of this project which helps with planning your tasks and milestones</label>
+                                            </div>
+
+                                            <div class="row mt-10">
+                                                <div class="col-md-4"><span class="text-muted">Start Date</span>
+                                                    <input type="date" class="form-control" aria-label="">
+                                                </div>
+
+                                                <div class="col-md-4"><span class="text-muted">End Date</span>
+                                                    <input type="date" class="form-control" aria-label="">
                                                 </div>
                                             </div>
                                         </div>
