@@ -7,20 +7,14 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="dashboard-deo.php">Dashboard</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="projects.php">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="everything.php">Everything</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Calendar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Statuses</a>
-            </li>
+            </li>           
             <li class="nav-item">
                 <a class="nav-link" href="people.php">People</a>
             </li>
