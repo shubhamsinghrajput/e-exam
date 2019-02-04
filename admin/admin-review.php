@@ -253,50 +253,7 @@
     <!-- Bootstrap core JavaScript-->
     <script src="../assets/vendor/jquery/jquery.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="../assets/js/sb-admin.min.js">
-
-    </script>
-    <script src="assets/js/jquery.dataTables.min.js">
-    </script>
-    <script src="assets/js/dataTables.bootstrap4.min.js">
-    </script>
-    <script src="assets/js/dataTables.buttons.min.js">
-    </script>
-    <script src="assets/js/buttons.bootstrap4.min.js">
-    </script>
-    <script src="assets/js/jszip.min.js">
-    </script>
-    <script src="assets/js/pdfmake.min.js">
-    </script>
-    <script src="assets/js/vfs_fonts.js">
-    </script>
-    <script src="assets/js/buttons.html5.min.js">
-    </script>
-    <script src="assets/js/buttons.print.min.js">
-    </script>
-    <script src="assets/js/buttons.colVis.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.popup-btn').click(function() {
-                $(this).next(".popup-content").toggle();
-            });
-
-
-            /*----------DATA TABLE----------*/
-
-            var table = $('#example').DataTable({
-                lengthChange: false,
-                buttons: ['copy', 'excel', 'pdf', 'colvis']
-            });
-
-            table.buttons().container()
-                .appendTo('#example_wrapper .col-md-6:eq(0)');
-
-
-        });
-    </script>
-
+     
 
 
 </body>
