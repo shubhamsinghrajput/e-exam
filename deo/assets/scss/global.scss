@@ -1,0 +1,140 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+
+/*================ADMIN GLOBAL STYLESHEET=================*/
+:focus {
+    outline: none !important; 
+}
+
+/*-----------------------------------*/
+img {
+    max-width: 100%;
+}
+
+[type="submit"] {
+    background: $bg-orange;
+    color: #fff;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+h1 {
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+}
+ 
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sidebar-wapper{
+    text-align: right;
+    background: $bg-light-blue;
+    .sidebar {
+        background: $trpt;
+    }
+}   
+.breadcrumb{
+     padding: .5rem 1rem;   
+}
+/*================HEADER=================*/
+.navbar {
+    background: $bg-dark-blue !important;
+}
+
+.navbar-brand {
+    width: 20%; 
+    max-width: 125px;
+}
+
+.pd-fix {
+    padding-top: 3.5rem;
+}
+.breadcrumb-item a{
+    color: #020001; 
+}
+
+/*=========CUSTOM POPOVER==========*/   
+
+.popup-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.popup-content {
+    display: none;
+    max-width: 350px;
+    max-height: 350px;
+    min-height: 100px;
+    min-width: 200px;
+    background: #f5f7fb;
+    position: absolute;
+    margin-top: 5px;
+    padding-right: 25px;    
+    left: -15px;
+}
+
+.popup-content:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #f5f7fb;
+    border: 1px solid #d6d8db;
+    border-width: 1px 0 0 1px;
+    transform: rotate(45deg);
+    top: -8px;
+    left: 10px;
+}
+
+
+
+/*================GLOBAL RESPONSIVE=================*/
+@media all and (max-width:768px) {
+    .social-nav {
+        position: absolute;
+        right: 75px;
+        top: 8px;
+    }
+
+    .navbar-brand {
+        width: auto;
+    }
+
+    .navbar-toggler {
+        font-size: 18px;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        float: none;
+    }
+}

@@ -1,0 +1,26 @@
+/*===============STYLE CODE================*/
+.links-blog .h5 {
+  font-size: 16px;
+}
+
+.card-body-icon {
+  position: absolute;
+}
+
+.card-body .dropdown {
+  max-width: 200px;
+}
+
+/*===============================================*/
+/*===============RESPONSIVE CODE================*/
+/*=====================TAb======================*/
+/*=====================TAb======================*/
+@media all and (max-width: 767px) {
+  .sidebar-wapper {
+    text-align: center;
+  }
+}
+/*=====================MOBILE=========================*/
+/*=====================TAb======================*/
+
+/*# sourceMappingURL=style.css.map */

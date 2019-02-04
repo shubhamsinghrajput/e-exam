@@ -1,0 +1,53 @@
+/*===============STYLE CODE================*/
+.breadcrumb-item {
+  color: #0a0a0a;
+}
+.breadcrumb-item a {
+  color: #666;
+}
+
+.card-body-icon {
+  position: absolute;
+}
+
+.card-body .dropdown {
+  max-width: 200px;
+}
+
+.sidebar.navbar-nav .nav-item {
+  text-align: left;
+  overflow: auto;
+}
+.sidebar.navbar-nav .nav-link {
+  display: inline-block;
+  width: auto;
+}
+.sidebar.navbar-nav .badge {
+  float: right;
+  margin-top: 22px;
+  margin-right: 12px;
+}
+
+.sidebar-toggled .sidebar.navbar-nav .badge {
+  float: none;
+  margin: 0 auto;
+}
+.sidebar-toggled .sidebar .nav-item {
+  text-align: center;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+}
+.nav-tabs .nav-link.active {
+  background: #666;
+  color: #ffff;
+}
+
+.bd-5 {
+  border-bottom: 5px solid #ddd;
+}
+
+/*===============================================*/
+
+/*# sourceMappingURL=projects.css.map */
