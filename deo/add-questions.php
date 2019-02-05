@@ -87,12 +87,13 @@
                 </ol>
 
                 <!--------------------------------------------------------------------------------->
-                <div class="col-lg-6">
-                    <form autocomplete="off" class="form" role="form">
+                <form autocomplete="off" class="form" role="form">
+                   <div class="row">
+                    <div class="col-lg-6">
                         <div class="form-group row">
                             <label class="col-lg-3 col-form-label form-control-label">Name of the test</label>
                             <div class="col-lg-9">
-                                <select class="form-control" id="user_time_zone" size="0">
+                                <select class="form-control" id="" name="" size="0">
                                     <option value="SSC">
                                         SSC
                                     </option>
@@ -108,7 +109,7 @@
                         <div class="form-group row">
                             <label class="col-lg-3 col-form-label form-control-label">Subject</label>
                             <div class="col-lg-9">
-                                <select class="form-control" id="user_time_zone" size="0">
+                                <select class="form-control" id="" name="" size="0">
                                     <option value="English">
                                         English
                                     </option>
@@ -121,10 +122,28 @@
                                 </select>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Book</label>
+                            <div class="col-lg-9">
+                                <select class="form-control" id="" name="" size="0">
+                                    <option value="Book 1">
+                                        Book 1
+                                    </option>
+                                    <option value="General Book 2">
+                                        General Book 2
+                                    </option>
+                                    <option value="Book 3">
+                                        Book 3
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
                         <div class="form-group row">
                             <label class="col-lg-3 col-form-label form-control-label">Difficulty Level</label>
                             <div class="col-lg-9">
-                                <select class="form-control" id="user_time_zone" size="0">
+                                <select class="form-control" id="" name="" size="0">
                                     <option value="Low">
                                         Low
                                     </option>
@@ -137,16 +156,30 @@
                                 </select>
                             </div>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    </div>
+                </form>
                 <hr class="my-4">
                 <form autocomplete="off" class="form" role="form">
                     <div class="col-lg-12 row">
                         <div class="col-lg-7">
                             <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Chapter</label>
+                                <div class="col-lg-9">
+                                    <select class="form-control" id="" name="" size="0">
+                                        <option value="Chapter 1">
+                                            Chapter 1
+                                        </option>
+                                        <option value="Chapter 2">
+                                            Chapter 2
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
                                 <label class="col-lg-3 col-form-label form-control-label">Type of Question</label>
                                 <div class="col-lg-9">
-                                    <select class="form-control" id="user_time_zone" size="0">
+                                    <select class="form-control" id="" name="" size="0">
                                         <option value="Text">
                                             Text
                                         </option>
@@ -211,11 +244,10 @@
                             <div class="form-group row">
                                 <label class="col-lg-3 col-form-label form-control-label">Explanation</label>
                                 <div class="col-lg-9">
-                                    <textarea class="form-control" id="explanation" name=""
-                                              rows="3" placeholder="Describe explanation here..."></textarea>
+                                    <textarea class="form-control" id="explanation" name="" rows="3" placeholder="Describe explanation here..."></textarea>
                                 </div>
                             </div>
-                            
+
                             <button class="btn btn-info btn-block" type="button">Submit</button>
                         </div>
                     </div>

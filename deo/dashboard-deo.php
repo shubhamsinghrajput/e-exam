@@ -24,6 +24,22 @@
     <link href="../assets/css/sb-admin.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    
+    <style>
+        .right{
+            color:green;
+            font-size:30px;
+            text-align:center;
+        }
+        .wrong{
+            color:red; 
+            font-size:30px;
+            text-align:center;
+        }
+        th { 
+            text-align:center;
+        }    
+    </style>
 
 </head>
 
@@ -106,11 +122,11 @@
                                     <i class="fas fa-fw fa-shopping-cart"></i>
                                 </div>
                                 <h5>
-                                    <a class="mr-5 text-white" href="#">Wrong Entry returned by admin</a>
+                                    <a class="mr-5 text-white" href="wrong-entry.php">Wrong Entry returned by admin</a>
                                 </h5>
                                 <span class="badge badge-danger float-right p-2 border border-white">90</span>
                             </div>                            
-                            <a class="card-footer text-white clearfix small z-1" href="add-question.php">
+                            <a class="card-footer text-white clearfix small z-1" href="wrong-entry.php">
                                 <span class="float-left">Progress Details</span>
                                 <span class="float-right">
                                     <i class="fas fa-angle-right"></i>
