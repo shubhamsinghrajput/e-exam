@@ -114,7 +114,9 @@ ol {
   top: -8px;
   left: 10px;
 }
-
+.td-none,.td-none a{
+    text-decoration: none;
+}
 /*================GLOBAL RESPONSIVE=================*/
 @media all and (max-width: 768px) {
   .social-nav {

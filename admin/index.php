@@ -182,17 +182,17 @@
                 <div class="card mb-3">
                     <div class="card-header">
                         <i class="fas fa-table"></i>
-                        Data Table Example</div>
+                        Preview Table</div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <table class="table table-bordered td-none" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
                                         <th>Exam Name</th>
                                         <th>Subject</th>
                                         <th>Book Name</th>
                                         <th>DOE Name</th>
-
+                                        <th class="text-center">Go to Page</th>
                                     </tr>
                                 </thead>
                                 <tfoot>
@@ -201,8 +201,7 @@
                                         <th>Subject</th>
                                         <th>Book Name</th>
                                         <th>DOE Name</th>
-
-
+                                        <th class="text-center">Detail Page</th>
                                     </tr>
                                 </tfoot>
                                 <tbody>
@@ -211,56 +210,56 @@
                                         <td>English</td>
                                         <td>Simple Set</td>
                                         <td>Rishi</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                     <tr>
                                         <td>NDA</td>
                                         <td>GK</td>
                                         <td>Simple Set</td>
                                         <td>Ram</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                     <tr>
                                         <td>SSc</td>
                                         <td>English</td>
                                         <td>Simple Set</td>
                                         <td>Rishi</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                     <tr>
                                         <td>NDA</td>
                                         <td>GK</td>
                                         <td>Simple Set</td>
                                         <td>Ram</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                     <tr>
                                         <td>SSc</td>
                                         <td>English</td>
                                         <td>Simple Set</td>
                                         <td>Rishi</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                     <tr>
                                         <td>NDA</td>
                                         <td>GK</td>
                                         <td>Simple Set</td>
                                         <td>Ram</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                     <tr>
                                         <td>SSc</td>
                                         <td>English</td>
                                         <td>Simple Set</td>
                                         <td>Rishi</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                     <tr>
                                         <td>NDA</td>
                                         <td>GK</td>
                                         <td>Simple Set</td>
                                         <td>Ram</td>
-
+                                        <td><a href="#" class="d-block text-center">Go</a></td>
                                     </tr>
                                 </tbody>
                             </table>
