@@ -40,9 +40,9 @@
             <ul class="sidebar navbar-nav">
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="dashboard-deo.php">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Categories</span>
+                        <span>Dashboard</span>
                     </a>
                 </li>
 

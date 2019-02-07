@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
  
-    <a class="navbar-brand mr-4" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+    <a class="navbar-brand mr-4" href="dashboard-deo.php"><img src="assets/img/logo.png" alt="logo"></a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
