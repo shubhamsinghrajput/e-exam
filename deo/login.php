@@ -26,7 +26,7 @@
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
-        <div class="card-header">Admin Login</div>
+        <div class="card-header">Login</div>
         <div class="card-body">
           <form>
             <div class="form-group">
@@ -49,16 +49,16 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="admin/dashboard-admin.php">Login</a>
+            <a class="btn btn-primary btn-block" href="index.html">Login</a>
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="register.php">Register an Account</a>
-            <a class="d-block small" href="forgot-password.php">Forgot Password?</a>
+            <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
           </div>
           <hr>
           <div class="text-center d-flex">
-            <a class="btn flex-fill small mr-1 btn-secondary foat-left" href="deo/login.php">DEO Login</a>
-            <a class="  btn flex-fill btn-secondary ml-1 small float right" href="student/login.php">Student Login</a>
+            <a class="btn flex-fill small mr-1 btn-secondary foat-left" href="register.html">DEO Login</a>
+            <a class="  btn flex-fill btn-secondary ml-1 small float right" href="forgot-password.html">Student Login</a>
           </div>
         </div>
       </div>
