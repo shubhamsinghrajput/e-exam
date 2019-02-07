@@ -29,7 +29,7 @@
     <style>
         .modal-full {
             min-width: 80%;
-            margin: auto;
+            margin-top: 2%;
         }
     </style>
 
@@ -138,44 +138,6 @@
                                     </tr>
                                 </tfoot>
                                 <tbody>
-                                    <tr>
-                                        <td>Ssc</td>
-                                        <td>English</td>
-                                        <td>Model Book 1</td>
-                                        <td>13</td>
-                                        <td>24</td>
-                                        <td>Integration Specialist</td>
-                                        <td>b</td>
-                                        <td>Experience in ECO systems</td>
-                                        <td>Experience in melding existing systems</td>
-                                        <td>Experience in systems</td>
-                                        <td>Experience systems</td>
-                                        <td>Web integration specialist. A person with experience in melding existing systems with the Web.</td>
-                                        <td>
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                                                Edit
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ssc</td>
-                                        <td>English</td>
-                                        <td>Model Book 1</td>
-                                        <td>13</td>
-                                        <td>24</td>
-                                        <td>Integration Specialist</td>
-                                        <td>b</td>
-                                        <td>Experience in ECO systems</td>
-                                        <td>Experience in melding existing systems</td>
-                                        <td>Experience in systems</td>
-                                        <td>Experience systems</td>
-                                        <td>Web integration specialist. A person with experience in melding existing systems with the Web.</td>
-                                        <td>
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                                                Edit
-                                            </button>
-                                        </td>
-                                    </tr>
                                     <tr>
                                         <td>Ssc</td>
                                         <td>English</td>
