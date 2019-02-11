@@ -27,7 +27,7 @@
 
 </head>
 
-<body id="page-top" class="pd-fix">
+<body id="page-top" class="pd-fix home-page">
 
     <?php include 'nav.php';?>
 
@@ -383,7 +383,8 @@
     <!-- Demo scripts for this page-->
     <script src="../assets/js/demo/datatables-demo.js"></script>
     <script src="../assets/js/demo/chart-area-demo.js"></script>
-
+    <script src="assets/js/site.js"></script>
+    
 </body>
 
 </html>
