@@ -100,7 +100,7 @@
                                     <i class="fas fa-fw fa-users"></i>
                                 </div>
                                 <h5>
-                                    <a class="mr-5 text-white" href="add-deo.php">DEO</a>
+                                    <a class="mr-5 text-white" href="people.php">DEO</a>
                                 </h5>
 <!--                                <span class="badge badge-danger border float-right mt-1">40</span>-->
                                 <div class="row">
@@ -114,7 +114,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-footer text-white clearfix small" href="add-deo.php">
+                            <a class="card-footer text-white clearfix small" href="people.php">
                                 <span class="float-left">Add DEO</span>
                                 <span class="float-right">
                                     <i class="fas fa-angle-right"></i>

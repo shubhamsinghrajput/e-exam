@@ -81,7 +81,11 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#login-history">login history</a>
                     </li>
+                    
+                    <li class="ml-auto"><button class="btn btn-success" href="#" data-toggle="modal" data-target="#addDAO"><i class="fa fa-plus-circle"></i> Add Project</button>
+                    </li>
                 </ul>
+               
 
                 <!-- Tab panes -->
                 <div class="tab-content">
@@ -218,6 +222,90 @@
         </footer>
     </div>
     <!-- /.content-wrapper -->
+    
+    <div class="modal fade bd-example-modal-lg" id="addDAO" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom border-secondary">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Project</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="col-12">
+                        <form>
+                            <div class="form-group">
+
+                                <div class="row">
+                                    <label for="project-name" class="col-form-label">What's the Project Name?</label>
+                                    <input type="text" class="form-control" id="project-name">
+                                </div>
+                                <!--------------------------------------------------------------------------------->
+
+                                <div class="container-fluid mt-3">
+                                    <ul class="nav nav-tabs bd-5" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#description"><span>Description</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#people"><span>People</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>Dates</span></a>
+                                        </li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div id="description" class="tab-pane active ml-4 mr-4"><br>
+                                            <div class="row">
+                                                <label for="description" class="col-form-label">Provide a Description (Optional):</label>
+                                                <textarea class="form-control" id="description"></textarea>
+                                            </div>
+                                        </div>
+                                        <div id="people" class="tab-pane fade ml-4 mr-4"><br>
+                                            <div class="row">
+                                                <label for="description" class="col-form-label">Who should be added to this project?</label>
+                                                <div class="input-group">
+
+                                                    <input type="text" class="form-control" placeholder="Search existing users..." aria-label="Search existing users...">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="dates" class="tab-pane fade ml-4 mr-4"><br>
+                                            <div class="row">
+                                                <h4 class="text-muted">Project Dates (Optional)</h4>
+                                                <label for="description" class="col-form-label text-muted">Adding a start and end date provides your team a useful way to see the duration of this project which helps with planning your tasks and milestones</label>
+                                            </div>
+
+                                            <div class="row mt-10">
+                                                <div class="col-md-4"><span class="text-muted">Start Date</span>
+                                                    <input type="date" class="form-control" aria-label="">
+                                                </div>
+
+                                                <div class="col-md-4"><span class="text-muted">End Date</span>
+                                                    <input type="date" class="form-control" aria-label="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer border-top border-secondary">
+                    <button class="btn btn-info mr-auto" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-success" type="button">Add Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- /#wrapper -->
     <!-- Scroll to Top Button-->
