@@ -56,10 +56,10 @@
             <a class="d-block small" href="forgot-password.php">Forgot Password?</a>
           </div>
           <hr>
-          <!-- <div class="text-center d-flex">
+          <div class="text-center d-flex">
             <a class="btn flex-fill small mr-1 btn-secondary foat-left" href="register.php">DEO Login</a>
             <a class="  btn flex-fill btn-secondary ml-1 small float right" href="forgot-password.php">Student Login</a>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>

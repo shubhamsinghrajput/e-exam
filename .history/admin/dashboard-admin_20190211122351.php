@@ -42,12 +42,11 @@
             <ul class="sidebar navbar-nav">
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="index.html">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
                         <span>Dashboard</span>
                     </a>
                 </li>
-<!--
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-fw fa-folder"></i>
@@ -64,26 +63,23 @@
                         <a class="dropdown-item" href="blank.html">Blank Page</a>
                     </div>
                 </li>
--->
-<!--
                 <li class="nav-item">
                     <a class="nav-link" href="charts.html">
                         <i class="fas fa-fw fa-chart-area"></i>
                         <span>Charts</span></a>
                 </li>
--->
-<!--
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
                         <i class="fas fa-fw fa-table"></i>
                         <span>Tables</span></a>
                 </li>
--->
             </ul>
         </div>
 
         <div id="content-wrapper">
+
             <div class="container-fluid">
+
                 <!-- Breadcrumbs-->
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
@@ -91,60 +87,18 @@
                     </li>
                     <li class="breadcrumb-item active">Overview</li>
                 </ol>
+
                 <!-- Icon Cards-->
                 <div class="row links-blog">
-                    <div class="col-xl-3 col-sm-6 mb-3">
-                        <div class="card text-white bg-danger o-hidden h-100">
-                            <div class="card-body">
-                                <div class="card-body-icon">
-                                    <i class="fas fa-fw fa-users"></i>
-                                </div>
-                                <h5>
-                                    <a class="mr-5 text-white" href="add-deo.php">DEO</a>
-                                </h5>
-<!--                                <span class="badge badge-danger border float-right mt-1">40</span>-->
-                                <div class="row">
-                                    <div class="col-6">Fast Entry</div> <div class="col-6">
-                                    <span class="badge border">25</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-6">Slow Entry</div> <div class="col-6">
-                                    <span class="badge border">15</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="card-footer text-white clearfix small" href="add-deo.php">
-                                <span class="float-left">Add DEO</span>
-                                <span class="float-right">
-                                    <i class="fas fa-angle-right"></i>
-                                </span>
-                            </a>
-
-                        </div>
-                    </div>
-                    
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="card text-white bg-primary o-hidden h-100">
                             <div class="card-body">
                                 <div class="card-body-icon">
-                                    <i class="fas fa-fw fa-tasks"></i>
+                                    <i class="fas fa-fw fa-comments"></i>
                                 </div>
-                                <h5>
-                                    <a class="mr-5 text-white" href="projects.php">Projects and Tasks</a>
-                                </h5>
-                                <div class="row">
-                                    <div class="col-6">Task Done</div> <div class="col-6">
-                                    <span class="badge border">245</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-6">Task Remains</div> <div class="col-6">
-                                    <span class="badge border">368</span>
-                                    </div>
-                                </div>
+                                <a class="mr-5 text-white" href="#">Task</a>
                             </div>
-                            <a class="card-footer text-white clearfix small" href="progress.php">
+                            <a class="card-footer text-white clearfix small z-1" href="#">
                                 <span class="float-left">Progress Details</span>
                                 <span class="float-right">
                                     <i class="fas fa-angle-right"></i>
@@ -153,51 +107,47 @@
                         </div>
                     </div>
                     <div class="col-xl-3 col-sm-6 mb-3">
-                        <div class="card text-white bg-info o-hidden h-100">
+                        <div class="card text-white bg-warning o-hidden h-100">
                             <div class="card-body">
                                 <div class="card-body-icon">
-                                    <i class="fas fa-fw fa-database"></i>
+                                    <i class="fas fa-fw fa-list"></i>
                                 </div>
                                 <h5>
-                                    <a class="mr-6 text-white" href="#">Evaluate Entry</a>
+                                    <a class="mr-5 text-white" href="#">No. of the question remains</a>
                                 </h5>
-                                <div class="row">
-                                    <div class="col-6">Entry Done</div> <div class="col-6">
-                                        <span class="badge border">4500</span>
-                                    </div>
-                                </div>
-                               <div class="row">
-                                   <div class="col-6">Entry Remains</div> <div class="col-6">
-                                   <span class="badge border">1500</span>
-                                   </div>
-                                </div>
                             </div>
-                            <a class="card-footer text-white clearfix small" href="progress.php">
-                                <span class="float-left">Entry Detail</span>
-                                <span class="float-right">
-                                    <i class="fas fa-angle-right"></i>
-                                </span>
-                            </a>
 
                         </div>
                     </div>
-                    
+                    <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="card text-white bg-danger o-hidden h-100">
+                            <div class="card-body">
+                                <div class="card-body-icon">
+                                    <i class="fas fa-fw fa-shopping-cart"></i>
+                                </div>
+                                <h5>
+                                    <a class="mr-5 text-white" href="#">No. of the question done</a>
+                                </h5>
+                            </div>
+
+                        </div>
+                    </div>
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="card text-white bg-success  h-100">
                             <div class="card-body row">
                                 <div class="card-body-icon">
                                     <i class="fas fa-fw fa-life-ring"></i>
                                 </div>
-                                <h5 class="text-white block-title col-sm-6">Review entry</h5>
-                                <div class="drop-wrap col-sm-6 mt-4">
+                                <h5 class="text-white block-title col-sm-6">Review</h5>
+                                <div class="drop-wrap col-sm-6">
                                     <div class="dropdown mx-auto">
                                         <button type="button" class="btn btn-success border-white btn-sm btn-block dropdown-toggle" data-toggle="dropdown">
                                             Exam
                                         </button>
                                         <div class="dropdown-menu ">
-                                            <a class="dropdown-item" href="review-admin.php">Link 1</a>
-                                            <a class="dropdown-item" href="review-admin.php">Link 2</a>
-                                            <a class="dropdown-item" href="review-admin.php">Link 3</a>
+                                            <a class="dropdown-item" href="#">Link 1</a>
+                                            <a class="dropdown-item" href="#">Link 2</a>
+                                            <a class="dropdown-item" href="#">Link 3</a>
                                         </div>
                                     </div>
                                     <div class="dropdown mt-2 mx-auto">
@@ -205,19 +155,13 @@
                                             Book
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="review-admin.php">Link 1</a>
-                                            <a class="dropdown-item" href="review-admin.php">Link 2</a>
-                                            <a class="dropdown-item" href="review-admin.php">Link 3</a>
+                                            <a class="dropdown-item" href="#">Link 1</a>
+                                            <a class="dropdown-item" href="#">Link 2</a>
+                                            <a class="dropdown-item" href="#">Link 3</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="card-footer text-white clearfix small" href="progress.php">
-                                <span class="float-left">Review Detail</span>
-                                <span class="float-right">
-                                    <i class="fas fa-angle-right"></i>
-                                </span>
-                            </a>
 
                         </div>
                     </div>
@@ -360,7 +304,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="../index.php">Logout</a>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
                 </div>
             </div>
         </div>

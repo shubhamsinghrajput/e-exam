@@ -57,18 +57,18 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">
                         <i class="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Categories</span>
+                        <span>Add DEO</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-fw fa-chart-area"></i>
-                        <span>All Projects</span></a><span class="badge badge-danger">5</span>
+                        <i class="fas fa-fw fa-users"></i>
+                        <span>All DEOs</span></a><span class="badge badge-danger">15</span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>No Category</span></a><span class="badge badge-danger">10</span>
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Working DEOs</span></a><span class="badge badge-danger">10</span>
                 </li>
             </ul>
         </div>
@@ -80,7 +80,7 @@
                     <li class="breadcrumb-item">
                         <a href="#">Dashboard</a>
                     </li>
-                    <li class="breadcrumb-item active">Projects</li>
+                    <li class="breadcrumb-item active">DEO</li>
                 </ol>
 
                 <!--------------------------------------------------------------------------------->

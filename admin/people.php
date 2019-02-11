@@ -47,12 +47,12 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="charts.html">
+                    <a class="nav-link" href="#">
                         <i class="fas fa-fw fa-chart-area"></i>
                         <span>All Projects</span></a><span class="badge badge-danger">5</span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
+                    <a class="nav-link" href="#">
                         <i class="fas fa-fw fa-table"></i>
                         <span>No Category</span></a><span class="badge badge-danger">10</span>
                 </li>
@@ -99,19 +99,11 @@
                             </div>
                         </div>
                     </div>
-                    <div id="people" class="tab-pane fade ml-5 mr-5"><br>
+                    <div id="people" class="tab-pane fade"><br>
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="mb-2">Current People</h1>
-                                <div class="popup-wrapper">
-                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                        <h1>hello World</h1>
-                                    </div>
-                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
-                                </div>
                                 <!--=============DATA TABEL START=============-->
-                                <div class="dataTabe-wrapper pt-5">
+                                <div class="dataTabe-wrapper">
                                     <table id="example" class="table table-striped table-bordered" style="width:100%">
                                         <thead>
                                             <tr>
@@ -232,49 +224,21 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!-- Bootstrap core JavaScript-->
     <script src="../assets/vendor/jquery/jquery.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="../assets/js/sb-admin.min.js">
-
-    </script>
-    <script src="assets/js/jquery.dataTables.min.js">
-    </script>
-    <script src="assets/js/dataTables.bootstrap4.min.js">
-    </script>
-    <script src="assets/js/dataTables.buttons.min.js">
-    </script>
-    <script src="assets/js/buttons.bootstrap4.min.js">
-    </script>
-    <script src="assets/js/jszip.min.js">
-    </script>
-    <script src="assets/js/pdfmake.min.js">
-    </script>
-    <script src="assets/js/vfs_fonts.js">
-    </script>
-    <script src="assets/js/buttons.html5.min.js">
-    </script>
-    <script src="assets/js/buttons.print.min.js">
-    </script>
+    <script src="../assets/js/sb-admin.min.js"></script>
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/js/dataTables.buttons.min.js"></script>
+    <script src="assets/js/buttons.bootstrap4.min.js"></script>
+    <script src="assets/js/jszip.min.js"></script>
+    <script src="assets/js/pdfmake.min.js"></script>
+    <script src="assets/js/vfs_fonts.js"></script>
+    <script src="assets/js/buttons.html5.min.js"></script>
+    <script src="assets/js/buttons.print.min.js"></script>
     <script src="assets/js/buttons.colVis.min.js"></script>
     <script>
         $(document).ready(function() {

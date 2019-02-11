@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
  
-    <a class="navbar-brand mr-4" href="index.php"><img src="assets/img/logo.png" alt="logo"></a>
+    <a class="navbar-brand mr-4" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -14,6 +14,12 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="everything.php">Everything</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Calendar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Statuses</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="people.php">People</a>
@@ -62,24 +68,3 @@
 </li>
 </ul>
 </nav>
-
-
-
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                <button class="close" type="button
-                                            " data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="../index.php">Logout</a>
-            </div>
-        </div>
-    </div>
-</div>
