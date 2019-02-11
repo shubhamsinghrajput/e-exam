@@ -19,31 +19,7 @@ $(document).ready(function () {
     var ht = $(".top-right").html();
     $(".que-viewport").prepend("<div class='top-right mb-top-right clearfix'> </div>").find(".top-right").prepend(ht);
     /*---------------------------------------*/
-    //    function queChart() {
-    //        
-    //        $('.que-viewport').click(function (event) {
-    //            event.stopPropagation();
-    //        });
-    //        $(".btn-slide").click(function () {
-    //            var x = $(".que-viewport").offset().left;
-    //
-    //            if (x >= $(window).width()) {
-    //                $('.que-viewport').animate({
-    //                     "right": "0"
-    //                });
-    //            }
-    //        });
-    //        $(document).click(function () {
-    //            var x = $(".que-viewport").offset().left;
-    //            if ($(this).hasClass("btn-slide")) { 
-    //               
-    //            }
-    //            
-    //        });
-    //    }
-    //    queChart();
-
-
+ 
 
     /*-----------------------------------------------*/
     $(".btn-slide").click(function () {
@@ -60,5 +36,10 @@ $(document).ready(function () {
         });
 
     });
+    /*------------------------------------*/
+    $(document).click(function(){
+        var x = $(this).attr("title");
+        alert(x);
+    })
     /*------------------------------------*/
 });
