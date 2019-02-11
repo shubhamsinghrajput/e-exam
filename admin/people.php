@@ -24,6 +24,12 @@
     <link href="../assets/css/sb-admin.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
     <link href="assets/css/people.css" rel="stylesheet">
+    
+    <style>
+        th{
+        text-align: left !important;
+        }
+    </style>
 
 
 </head>
@@ -48,13 +54,13 @@
 
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-fw fa-chart-area"></i>
-                        <span>All Projects</span></a><span class="badge badge-danger">5</span>
+                        <i class="fas fa-fw fa-users"></i>
+                        <span>All DEOs</span></a><span class="badge badge-danger">25</span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>No Category</span></a><span class="badge badge-danger">10</span>
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Working DEOs</span></a><span class="badge badge-danger">10</span>
                 </li>
             </ul>
         </div>
@@ -73,15 +79,11 @@
 
                 <ul class="nav nav-tabs bd-5" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#compines">compines</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#people">people</a>
+                        <a class="nav-link active" data-toggle="tab" href="#people">people</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#login-history">login history</a>
                     </li>
-                    
                     <li class="ml-auto"><button class="btn btn-success" href="#" data-toggle="modal" data-target="#addDAO"><i class="fa fa-plus-circle"></i> Add Project</button>
                     </li>
                 </ul>
@@ -89,98 +91,61 @@
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div id="compines" class="tab-pane active ml-5 mr-5"><br>
-                        <div class="row">
-                            <div class="col-12">
-                                <h1 class="mb-2">Active Companies</h1>
-                                <div class="popup-wrapper">
-                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                        <h1>hello World</h1>
-                                    </div>
-                                </div>
-                                <span>AIIMS - (Vistasoft)llllllll - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="people" class="tab-pane fade"><br>
+                    <div id="people" class="tab-pane active"><br>
                         <div class="row">
                             <div class="col-12">
                                 <!--=============DATA TABEL START=============-->
                                 <div class="dataTabe-wrapper">
-                                    <table id="example" class="table table-striped table-bordered" style="width:100%">
+                                    <table id="example" class="table table-striped table-bordered">
                                         <thead>
                                             <tr>
+                                                <th>SL no.</th>
                                                 <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>Email</th>
+                                                <th>Ph. no</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
+                                               <td>1</td>
                                                 <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>$320,800</td>
+                                                <td>Tiger@yopmail.com</td>
+                                                <td>9959857458</td>
                                             </tr>
                                             <tr>
-                                                <td>Garrett Winters</td>
-                                                <td>Accountant</td>
-                                                <td>Tokyo</td>
-                                                <td>63</td>
-                                                <td>2011/07/25</td>
-                                                <td>$170,750</td>
-                                            </tr>
-
-                                            <tr>
+                                              <td>2</td>
                                                 <td>Colleen Hurst</td>
-                                                <td>Javascript Developer</td>
-                                                <td>San Francisco</td>
-                                                <td>39</td>
-                                                <td>2009/09/15</td>
-                                                <td>$205,500</td>
+                                                <td>Colleen@yopmail.com</td>
+                                                <td>9856236547</td>
                                             </tr>
 
                                             <tr>
+                                              <td>3</td>
                                                 <td>Michelle House</td>
-                                                <td>Integration Specialist</td>
-                                                <td>Sidney</td>
-                                                <td>37</td>
-                                                <td>2011/06/02</td>
-                                                <td>$95,400</td>
+                                                <td>Michelle@yopmail.com</td>
+                                                <td>8869857412</td>
                                             </tr>
 
                                             <tr>
+                                               <td>4</td>
                                                 <td>Olivia Liang</td>
-                                                <td>Support Engineer</td>
-                                                <td>Singapore</td>
-                                                <td>64</td>
-                                                <td>2011/02/03</td>
-                                                <td>$234,500</td>
+                                                <td>Olivia@yopmail.com</td>
+                                                <td>8869587412</td>
                                             </tr>
                                             <tr>
+                                               <td>5</td>
                                                 <td>Bruno Nash</td>
-                                                <td>Software Engineer</td>
-                                                <td>London</td>
-                                                <td>38</td>
-                                                <td>2011/05/03</td>
-                                                <td>$163,500</td>
+                                                <td>Bruno@yopmail.com</td>
+                                                <td>7758956984</td>
                                             </tr>
 
                                         </tbody>
                                         <tfoot>
                                             <tr>
+                                                <th>SL no.</th>
                                                 <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>Email</th>
+                                                <th>Ph. No</th>
                                             </tr>
                                         </tfoot>
                                     </table>
@@ -192,14 +157,63 @@
                     <div id="login-history" class="tab-pane fade ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="mb-2">Milestones</h1>
-                                <div class="popup-wrapper">
-                                    <a class="text-dark popup-btn" href="#"> <i class="fa fa-ellipsis-v mr-2" aria-hidden="true"></i></a>
-                                    <div class="popup-content alert alert-secondary alert-dismissible fade show">
-                                        <h1>hello World</h1>
-                                    </div>
-                                    <span>AIIMS - (Vistasoft)hhhhhhhhhhhhhhhh - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
+                                <!--=============DATA TABEL START=============-->
+                                <div class="dataTabe-wrapper">
+                                    <table class="table table-striped table-bordered" style="width: 100%;">
+                                        <thead>
+                                            <tr>
+                                                <th>SL no.</th>
+                                                <th>DEO Name</th>
+                                                <th>Login Time</th>
+                                                <th>Log Out Time</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Tiger Nixon</td>
+                                                <td>10:15 am</td>
+                                                <td>06:00 pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Colleen Hurst</td>
+                                                <td>10:15 am</td>
+                                                <td>06:00 pm</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Michelle House</td>
+                                                <td>10:15 am</td>
+                                                <td>06:00 pm</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Olivia Liang</td>
+                                                <td>10:15 am</td>
+                                                <td>06:00 pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Bruno Nash</td>
+                                                <td>10:15 am</td>
+                                                <td>06:00 pm</td>
+                                            </tr>
+
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>SL no.</th>
+                                                <th>DEO Name</th>
+                                                <th>Login Time</th>
+                                                <th>Log Out Time</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
                                 </div>
+                                <!--=============DATA TABEL START=============-->
                             </div>
                         </div>
                     </div>
@@ -227,7 +241,7 @@
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header border-bottom border-secondary">
-                    <h5 class="modal-title" id="exampleModalLabel">Add Project</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Add People</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -239,69 +253,23 @@
                             <div class="form-group">
 
                                 <div class="row">
-                                    <label for="project-name" class="col-form-label">What's the Project Name?</label>
-                                    <input type="text" class="form-control" id="project-name">
+                                    <label for="deo-name" class="col-form-label">Name</label>
+                                    <input type="text" class="form-control" id="deo-name">
+                                    
+                                    <label for="deo-email" class="col-form-label">Email</label>
+                                    <input type="text" class="form-control" id="deo-email">
+                                    
+                                    <label for="deo-ph" class="col-form-label">Ph. no.</label>
+                                    <input type="text" class="form-control" id="deo-ph">
                                 </div>
                                 <!--------------------------------------------------------------------------------->
-
-                                <div class="container-fluid mt-3">
-                                    <ul class="nav nav-tabs bd-5" role="tablist">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="#description"><span>Description</span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#people"><span>People</span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>Dates</span></a>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Tab panes -->
-                                    <div class="tab-content">
-                                        <div id="description" class="tab-pane active ml-4 mr-4"><br>
-                                            <div class="row">
-                                                <label for="description" class="col-form-label">Provide a Description (Optional):</label>
-                                                <textarea class="form-control" id="description"></textarea>
-                                            </div>
-                                        </div>
-                                        <div id="people" class="tab-pane fade ml-4 mr-4"><br>
-                                            <div class="row">
-                                                <label for="description" class="col-form-label">Who should be added to this project?</label>
-                                                <div class="input-group">
-
-                                                    <input type="text" class="form-control" placeholder="Search existing users..." aria-label="Search existing users...">
-                                                    <div class="input-group-append">
-                                                        <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="dates" class="tab-pane fade ml-4 mr-4"><br>
-                                            <div class="row">
-                                                <h4 class="text-muted">Project Dates (Optional)</h4>
-                                                <label for="description" class="col-form-label text-muted">Adding a start and end date provides your team a useful way to see the duration of this project which helps with planning your tasks and milestones</label>
-                                            </div>
-
-                                            <div class="row mt-10">
-                                                <div class="col-md-4"><span class="text-muted">Start Date</span>
-                                                    <input type="date" class="form-control" aria-label="">
-                                                </div>
-
-                                                <div class="col-md-4"><span class="text-muted">End Date</span>
-                                                    <input type="date" class="form-control" aria-label="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="modal-footer border-top border-secondary">
                     <button class="btn btn-info mr-auto" type="button" data-dismiss="modal">Close</button>
-                    <button class="btn btn-success" type="button">Add Project</button>
+                    <button class="btn btn-success" type="button">Add DEO</button>
                 </div>
             </div>
         </div>

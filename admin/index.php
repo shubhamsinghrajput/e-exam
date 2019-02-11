@@ -120,7 +120,6 @@
                                     <i class="fas fa-angle-right"></i>
                                 </span>
                             </a>
-
                         </div>
                     </div>
                     
