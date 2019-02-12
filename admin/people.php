@@ -24,12 +24,16 @@
     <link href="../assets/css/sb-admin.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
     <link href="assets/css/people.css" rel="stylesheet">
+    
     <style>
         th{
         text-align: left !important;
         }
     </style>
+
+
 </head>
+
 <body id="page-top" class="pd-fix">
     <?php include 'nav.php';?>
 
@@ -66,9 +70,9 @@
                 <!-- Breadcrumbs-->
                 <ol class="breadcrumb ">
                     <li class="breadcrumb-item">
-                        <a href="index.php">Dashboard</a>
+                        <a href="#">Dashboard</a>
                     </li>
-                    <li class="breadcrumb-item active">People</li>
+                    <li class="breadcrumb-item active">Projects</li>
                 </ol>
 
                 <!----------------------------------------->
