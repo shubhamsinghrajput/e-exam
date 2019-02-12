@@ -37,7 +37,7 @@ $(document).ready(function () {
 
     });
     /*------------------------------------*/
-    $(document).click(function(){
+    $("a.nav-link").click(function(){
         var x = $(this).attr("title");
         alert(x);
     }); 
