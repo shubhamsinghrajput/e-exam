@@ -712,6 +712,8 @@
     <!-- Demo scripts for this page-->
     <script src="../assets/js/demo/datatables-demo.js"></script>
     <script src="../assets/js/demo/chart-area-demo.js"></script>
+        <script src="assets/js/site.js"></script>
+
 
 </body>
 

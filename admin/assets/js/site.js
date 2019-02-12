@@ -40,6 +40,6 @@ $(document).ready(function () {
     $(document).click(function(){
         var x = $(this).attr("title");
         alert(x);
-    })
+    }); 
     /*------------------------------------*/
 });

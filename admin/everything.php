@@ -183,13 +183,15 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
-   
+
     <!-- Bootstrap core JavaScript-->
     <script src="../assets/vendor/jquery/jquery.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="../assets/js/sb-admin.min.js">
-    </script>
+    <script src="../assets/js/sb-admin.min.js"> </script>
+    <script src="assets/js/site.js"></script>
+
+
     <script>
         $(document).ready(function() {
             $('.popup-btn').click(function() {
