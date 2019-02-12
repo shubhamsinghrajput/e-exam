@@ -177,7 +177,7 @@
                                                 <td>06:00 pm</td>
                                             </tr>
                                             <tr>
-                                                <td>3</td>
+                                                <td>2</td>
                                                 <td>Michelle House</td>
                                                 <td>10:15 am</td>
                                                 <td>06:00 pm</td>
