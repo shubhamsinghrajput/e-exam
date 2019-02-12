@@ -29,10 +29,7 @@
         text-align: left !important;
         }
     </style>
-
-
 </head>
-
 <body id="page-top" class="pd-fix">
     <?php include 'nav.php';?>
 
