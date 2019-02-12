@@ -27,7 +27,7 @@
 
 </head>
 
-<body id="page-top" class="pd-fix home-page">
+<body id="page-top" class="pd-fix home">
 
     <?php include 'nav.php';?>
 

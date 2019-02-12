@@ -43,7 +43,7 @@
 
 </head>
 
-<body id="page-top" class="pd-fix">
+<body id="page-top" class="pd-fix projects">
     <?php include 'nav.php';?>
 
     <div id="wrapper">
