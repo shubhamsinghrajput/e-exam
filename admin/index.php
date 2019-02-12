@@ -8,18 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title> Admin - Dashboard</title>
-
     <!-- Bootstrap core CSS-->
     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom fonts for this template-->
     <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
     <!-- Page level plugin CSS-->
     <link href="../assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
-
     <!-- Custom styles for this template-->
     <link href="../assets/css/sb-admin.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
@@ -47,7 +42,7 @@
                         <span>Dashboard</span>
                     </a>
                 </li>
-<!--
+                <!--
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-fw fa-folder"></i>
@@ -65,14 +60,14 @@
                     </div>
                 </li>
 -->
-<!--
+                <!--
                 <li class="nav-item">
                     <a class="nav-link" href="charts.html">
                         <i class="fas fa-fw fa-chart-area"></i>
                         <span>Charts</span></a>
                 </li>
 -->
-<!--
+                <!--
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
                         <i class="fas fa-fw fa-table"></i>
@@ -102,15 +97,17 @@
                                 <h5>
                                     <a class="mr-5 text-white" href="people.php">DEO</a>
                                 </h5>
-<!--                                <span class="badge badge-danger border float-right mt-1">40</span>-->
+                                <!--                                <span class="badge badge-danger border float-right mt-1">40</span>-->
                                 <div class="row">
-                                    <div class="col-6">Fast Entry</div> <div class="col-6">
-                                    <span class="badge border">25</span>
+                                    <div class="col-6">Fast Entry</div>
+                                    <div class="col-6">
+                                        <span class="badge border">25</span>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-6">Slow Entry</div> <div class="col-6">
-                                    <span class="badge border">15</span>
+                                    <div class="col-6">Slow Entry</div>
+                                    <div class="col-6">
+                                        <span class="badge border">15</span>
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +119,7 @@
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="card text-white bg-primary o-hidden h-100">
                             <div class="card-body">
@@ -133,13 +130,15 @@
                                     <a class="mr-5 text-white" href="projects.php">Projects and Tasks</a>
                                 </h5>
                                 <div class="row">
-                                    <div class="col-6">Task Done</div> <div class="col-6">
-                                    <span class="badge border">245</span>
+                                    <div class="col-6">Task Done</div>
+                                    <div class="col-6">
+                                        <span class="badge border">245</span>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-6">Task Remains</div> <div class="col-6">
-                                    <span class="badge border">368</span>
+                                    <div class="col-6">Task Remains</div>
+                                    <div class="col-6">
+                                        <span class="badge border">368</span>
                                     </div>
                                 </div>
                             </div>
@@ -161,14 +160,16 @@
                                     <a class="mr-6 text-white" href="#">Evaluate Entry</a>
                                 </h5>
                                 <div class="row">
-                                    <div class="col-6">Entry Done</div> <div class="col-6">
+                                    <div class="col-6">Entry Done</div>
+                                    <div class="col-6">
                                         <span class="badge border">4500</span>
                                     </div>
                                 </div>
-                               <div class="row">
-                                   <div class="col-6">Entry Remains</div> <div class="col-6">
-                                   <span class="badge border">1500</span>
-                                   </div>
+                                <div class="row">
+                                    <div class="col-6">Entry Remains</div>
+                                    <div class="col-6">
+                                        <span class="badge border">1500</span>
+                                    </div>
                                 </div>
                             </div>
                             <a class="card-footer text-white clearfix small" href="progress.php">
@@ -180,7 +181,7 @@
 
                         </div>
                     </div>
-                    
+
                     <div class="col-xl-3 col-sm-6 mb-3">
                         <div class="card text-white bg-success  h-100">
                             <div class="card-body row">
@@ -345,7 +346,6 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
-
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -381,10 +381,10 @@
     <script src="../assets/js/sb-admin.min.js"></script>
 
     <!-- Demo scripts for this page-->
-    <script src="../assets/js/demo/datatables-demo.js"></script> 
+    <script src="../assets/js/demo/datatables-demo.js"></script>
     <script src="../assets/js/demo/chart-area-demo.js"></script>
     <script src="assets/js/site.js"></script>
-    
+
 </body>
 
 </html>

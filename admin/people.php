@@ -24,7 +24,7 @@
     <link href="../assets/css/sb-admin.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
     <link href="assets/css/people.css" rel="stylesheet">
-    
+
     <style>
         th{
         text-align: left !important;
@@ -33,9 +33,9 @@
 
 
 </head>
- 
+
 <body id="page-top" class="pd-fix people">
- 
+
     <?php include 'nav.php';?>
 
     <div id="wrapper">
@@ -88,14 +88,14 @@
                     <li class="ml-auto"><button class="btn btn-success" href="#" data-toggle="modal" data-target="#addDAO"><i class="fa fa-plus-circle"></i> Add Project</button>
                     </li>
                 </ul>
-               
+
 
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div id="people" class="tab-pane active"><br>
                         <div class="row">
                             <div class="col-12">
-                                <!--=============DATA TABEL START=============-->
+                                <!--=============DATA TABLE START=============-->
                                 <div class="dataTabe-wrapper">
                                     <table id="example" class="table table-striped table-bordered">
                                         <thead>
@@ -108,33 +108,33 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                               <td>1</td>
+                                                <td>1</td>
                                                 <td>Tiger Nixon</td>
                                                 <td>Tiger@yopmail.com</td>
                                                 <td>9959857458</td>
                                             </tr>
                                             <tr>
-                                              <td>2</td>
+                                                <td>2</td>
                                                 <td>Colleen Hurst</td>
                                                 <td>Colleen@yopmail.com</td>
                                                 <td>9856236547</td>
                                             </tr>
 
                                             <tr>
-                                              <td>3</td>
+                                                <td>3</td>
                                                 <td>Michelle House</td>
                                                 <td>Michelle@yopmail.com</td>
                                                 <td>8869857412</td>
                                             </tr>
 
                                             <tr>
-                                               <td>4</td>
+                                                <td>4</td>
                                                 <td>Olivia Liang</td>
                                                 <td>Olivia@yopmail.com</td>
                                                 <td>8869587412</td>
                                             </tr>
                                             <tr>
-                                               <td>5</td>
+                                                <td>5</td>
                                                 <td>Bruno Nash</td>
                                                 <td>Bruno@yopmail.com</td>
                                                 <td>7758956984</td>
@@ -151,16 +151,16 @@
                                         </tfoot>
                                     </table>
                                 </div>
-                                <!--=============DATA TABEL START=============-->
+                                <!--=============DATA TABLE START=============-->
                             </div>
                         </div>
                     </div>
                     <div id="login-history" class="tab-pane fade ml-5 mr-5"><br>
                         <div class="row">
                             <div class="col-12">
-                                <!--=============DATA TABEL START=============-->
-                                <div class="dataTabe-wrapper">
-                                    <table class="table table-striped table-bordered" style="width: 100%;">
+                                <!--============= TABLE START=============-->
+                                <div class="table-responsive">
+                                    <table class="table">
                                         <thead>
                                             <tr>
                                                 <th>SL no.</th>
@@ -177,67 +177,34 @@
                                                 <td>06:00 pm</td>
                                             </tr>
                                             <tr>
-                                                <td>2</td>
-                                                <td>Colleen Hurst</td>
-                                                <td>10:15 am</td>
-                                                <td>06:00 pm</td>
-                                            </tr>
-
-                                            <tr>
                                                 <td>3</td>
                                                 <td>Michelle House</td>
                                                 <td>10:15 am</td>
                                                 <td>06:00 pm</td>
                                             </tr>
-
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Olivia Liang</td>
-                                                <td>10:15 am</td>
-                                                <td>06:00 pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Bruno Nash</td>
-                                                <td>10:15 am</td>
-                                                <td>06:00 pm</td>
-                                            </tr>
-
                                         </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th>SL no.</th>
-                                                <th>DEO Name</th>
-                                                <th>Login Time</th>
-                                                <th>Log Out Time</th>
-                                            </tr>
-                                        </tfoot>
                                     </table>
                                 </div>
-                                <!--=============DATA TABEL START=============-->
                             </div>
+                            <!-- ============= Table =============== -->
                         </div>
                     </div>
-
-
-
-
-
                 </div>
             </div>
         </div>
-        <!-- /.container-fluid -->
-        <!-- Sticky Footer -->
-        <footer class="sticky-footer">
-            <div class="container my-auto">
-                <div class="copyright text-center my-auto">
-                    <span>Copyright © Your Website 2018</span>
-                </div>
-            </div>
-        </footer>
     </div>
+    <!-- /.container-fluid -->
+    <!-- Sticky Footer -->
+    <footer class="sticky-footer">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>Copyright © Your Website 2018</span>
+            </div>
+        </div>
+    </footer>
+    <!--    </div>-->
     <!-- /.content-wrapper -->
-    
+
     <div class="modal fade bd-example-modal-lg" id="addDAO" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
@@ -256,10 +223,10 @@
                                 <div class="row">
                                     <label for="deo-name" class="col-form-label">Name</label>
                                     <input type="text" class="form-control" id="deo-name">
-                                    
+
                                     <label for="deo-email" class="col-form-label">Email</label>
                                     <input type="text" class="form-control" id="deo-email">
-                                    
+
                                     <label for="deo-ph" class="col-form-label">Ph. no.</label>
                                     <input type="text" class="form-control" id="deo-ph">
                                 </div>
@@ -281,7 +248,7 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
-   
+
     <!-- Bootstrap core JavaScript-->
     <script src="../assets/vendor/jquery/jquery.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -297,7 +264,7 @@
     <script src="assets/js/buttons.html5.min.js"></script>
     <script src="assets/js/buttons.print.min.js"></script>
     <script src="assets/js/buttons.colVis.min.js"></script>
-    <script src="assets/js/site.js"></script> 
+    <script src="assets/js/site.js"></script>
     <script>
         $(document).ready(function() {
             $('.popup-btn').click(function() {
