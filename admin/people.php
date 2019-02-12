@@ -30,7 +30,7 @@
         }
     </style>
 </head>
-<body id="page-top" class="pd-fix">
+<body id="page-top" class="pd-fix people">
     <?php include 'nav.php';?>
 
     <div id="wrapper">
