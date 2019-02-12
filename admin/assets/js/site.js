@@ -37,9 +37,20 @@ $(document).ready(function () {
 
     });
     /*------------------------------------*/
-    $("a.nav-link").click(function(){
-        var x = $(this).attr("title");
-        alert(x);
-    }); 
+//    $("a.nav-link").click(function(){
+//        var x = $(this).attr("title");
+//        alert(x);
+//        var  currentLink = $(this);
+//        
+//         
+//    }); 
+    var navCount = $(".menu.navbar-nav").find(".nav-link").length;
+    for(i = 1; i <= navCount ; i++){
+        var a = $(".menu.navbar-nav .nav-item:nth-child("+i+")" ).find(".nav-link").attr('title');
+         if($("body").hasClass(a)){
+           $(".nav-link[title="+a+"]").addClass("active")
+         };
+    }
+   
     /*------------------------------------*/
 });
