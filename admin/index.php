@@ -99,15 +99,15 @@
                                 </h5>
                                 <!--                                <span class="badge badge-danger border float-right mt-1">40</span>-->
                                 <div class="row">
-                                    <div class="col-6">Fast Entry</div>
-                                    <div class="col-6">
-                                        <span class="badge border">25</span>
+                                    <div class="col-7">Fast Entry</div>
+                                    <div class="col-5">
+                                        <span class="badge border">1125</span>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-6">Slow Entry</div>
-                                    <div class="col-6">
-                                        <span class="badge border">15</span>
+                                    <div class="col-7">Slow Entry</div>
+                                    <div class="col-5">
+                                        <span class="badge border">1115</span>
                                     </div>
                                 </div>
                             </div>
@@ -130,15 +130,15 @@
                                     <a class="mr-5 text-white" href="projects.php">Projects and Tasks</a>
                                 </h5>
                                 <div class="row">
-                                    <div class="col-6">Task Done</div>
-                                    <div class="col-6">
-                                        <span class="badge border">245</span>
+                                    <div class="col-7">Task Done</div>
+                                    <div class="col-5">
+                                        <span class="badge border">1245</span>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-6">Task Remains</div>
-                                    <div class="col-6">
-                                        <span class="badge border">368</span>
+                                    <div class="col-7">Task Remains</div>
+                                    <div class="col-5">
+                                        <span class="badge border">1368</span>
                                     </div>
                                 </div>
                             </div>
@@ -160,14 +160,14 @@
                                     <a class="mr-6 text-white" href="#">Evaluate Entry</a>
                                 </h5>
                                 <div class="row">
-                                    <div class="col-6">Entry Done</div>
-                                    <div class="col-6">
+                                    <div class="col-7">Entry Done</div>
+                                    <div class="col-5">
                                         <span class="badge border">4500</span>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-6">Entry Remains</div>
-                                    <div class="col-6">
+                                    <div class="col-7">Entry Remains</div>
+                                    <div class="col-5">
                                         <span class="badge border">1500</span>
                                     </div>
                                 </div>
