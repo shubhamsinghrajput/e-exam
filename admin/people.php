@@ -24,7 +24,6 @@
     <link href="../assets/css/sb-admin.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
     <link href="assets/css/people.css" rel="stylesheet">
-    
     <style>
         th{
         text-align: left !important;
