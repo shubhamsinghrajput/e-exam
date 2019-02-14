@@ -37,13 +37,7 @@ $(document).ready(function () {
 
     });
     /*------------------------------------*/
-//    $("a.nav-link").click(function(){
-//        var x = $(this).attr("title");
-//        alert(x);
-//        var  currentLink = $(this);
-//        
-//         
-//    }); 
+
     var navCount = $(".menu.navbar-nav").find(".nav-link").length;
     for(i = 1; i <= navCount ; i++){
         var a = $(".menu.navbar-nav .nav-item:nth-child("+i+")" ).find(".nav-link").attr('title');
@@ -51,6 +45,10 @@ $(document).ready(function () {
            $(".nav-link[title="+a+"]").addClass("active")
          };
     }
-   
+    /*------------------Add a toggle icon in card-header------------------*/
+    
+    $("#accordion .card-header .card-link")
+        .append("<button class='fa fa-plus' style='position:absolute;right:25px;background:transparent;border:0 none; cursor:pointer;top:15px;'></button> ");
+    
     /*------------------------------------*/
 });
