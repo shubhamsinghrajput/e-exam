@@ -80,9 +80,7 @@
                     </li>
                     <li class="breadcrumb-item active">Projects</li>
                 </ol>
-
                 <!--------------------------------------------------------------------------------->
-
                 <ul class="nav nav-tabs bd-5" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#active"><span>Active</span> <span class="badge badge-danger ">1</span></a>
