@@ -41,7 +41,7 @@
 
 </head>
 
-<body id="page-top" class="pd-fix projects">
+<body id="page-top" class="pd-fix project">
     <?php include 'nav.php';?>
 
     <div id="wrapper">
@@ -78,7 +78,8 @@
                     <li class="breadcrumb-item">
                         <a href="#">Dashboard</a>
                     </li>
-                    <li class="breadcrumb-item active">Projects</li>
+                    <li class="breadcrumb-item"><a href="projects.php">Projects</a></li>
+                    <li class="breadcrumb-item active">Project</li>
                 </ol>
                 <!--------------------------------------------------------------------------------->
                 <ul class="nav nav-tabs bd-5" role="tablist">
@@ -87,7 +88,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#current"><span>Current</span> <span class="badge badge-danger">1</span></a>
-                    <li class="ml-auto"><button class="btn btn-success" href="#" data-toggle="modal" data-target="#addProject"><i class="fa fa-plus-circle"></i> Add Project</button>
+                    <li class="ml-auto"><button class="btn btn-success" href="#" data-toggle="modal" data-target="#addTask"><i class="fa fa-plus-circle"></i> Add Task</button>
                     </li>
                 </ul>
 
@@ -102,7 +103,7 @@
                                     <div class="popup-content alert alert-secondary alert-dismissible fade show">
                                         <h1>hello World</h1>
                                     </div>
-                                    <a href="project.php"><span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span></a>
+                                    <span>AIIMS - (Vistasoft) - <small class="text-muted">Updated, Thrusday Jan 24 2019</small></span>
                                 </div>
                             </div>
                         </div>
@@ -142,11 +143,11 @@
         <i class="fas fa-angle-up"></i>
     </a>
     <!-- Add Project Modal-->
-    <div class="modal fade bd-example-modal-lg" id="addProject" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-lg" id="addTask" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header border-bottom border-secondary">
-                    <h5 class="modal-title" id="exampleModalLabel">Add Project</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Add Task</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -156,23 +157,42 @@
                     <div class="col-12">
                         <form>
                             <div class="form-group">
-
                                 <div class="row">
                                     <label for="project-name" class="col-form-label">What's the Project Name?</label>
                                     <input type="text" class="form-control" id="project-name">
                                 </div>
                                 <!--------------------------------------------------------------------------------->
-
                                 <div class="container-fluid mt-3">
                                     <ul class="nav nav-tabs bd-5" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="#description"><span>Description</span></a>
+                                            <a class="nav-link active" data-toggle="tab" href="#description"><span><i class="fa fa-user" aria-hidden="true"></i></span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#people"><span>People</span></a>
+                                            <a class="nav-link" data-toggle="tab" href="#people"><span><i class="fa fa-align-left" aria-hidden="true"></i> </span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>Dates</span></a>
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>
+                                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                            </span></a>
+                                        </li>
+                                        <li class="nav-item"><span>
+                                                <a class="nav-link" data-toggle="tab" href="#dates">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i></a></span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span><i class="fa fa-eye" aria-hidden="true"></i></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>fa-exclamation-circle</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>fa-exclamation-circle</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>fa-exclamation-circle</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#dates"><span>fa-exclamation-circle</span></a>
                                         </li>
                                     </ul>
 
