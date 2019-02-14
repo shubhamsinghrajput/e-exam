@@ -46,9 +46,7 @@ $(document).ready(function () {
          };
     }
     /*------------------Add a toggle icon in card-header------------------*/
-    
-    $("#accordion .card-header .card-link")
-        .append("<button class='fa fa-plus' style='position:absolute;right:25px;background:transparent;border:0 none; cursor:pointer;top:15px;'></button> ");
-    
+        
+  
     /*------------------------------------*/
 });

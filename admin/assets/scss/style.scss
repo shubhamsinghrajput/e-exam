@@ -3,23 +3,33 @@
 
 
 /*===============STYLE CODE================*/
-  
-.links-blog{
-    .h5{
+
+.links-blog {
+    .h5 {
         font-size: 16px;
     }
 }
-.card-body-icon{
+
+.card-body-icon {
     position: absolute;
 }
+
 .card-body .dropdown {
     max-width: 200px;
 }
 
+.card-header {
+    padding: 0;
+
+    .card-link {
+        display: block;
+        padding: .75rem 1.25rem;
+    }
+}
 
 
 
- 
+
 
 
 

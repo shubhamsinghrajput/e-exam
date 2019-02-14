@@ -11,6 +11,14 @@
   max-width: 200px;
 }
 
+.card-header {
+  padding: 0;
+}
+.card-header .card-link {
+  display: block;
+  padding: 0.75rem 1.25rem;
+}
+
 /*===============================================*/
 /*===============RESPONSIVE CODE================*/
 /*=====================TAb======================*/
