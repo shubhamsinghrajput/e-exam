@@ -113,7 +113,7 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </thead>
@@ -122,47 +122,24 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </tfoot>
                                             <tbody>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2019</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -170,7 +147,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link text-dark" data-toggle="collapse" href="#collapse2">
@@ -186,7 +163,7 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </thead>
@@ -195,55 +172,33 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </tfoot>
                                             <tbody>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                             </tbody>
+
                                         </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link text-dark" data-toggle="collapse" href="#collapse3">
@@ -259,7 +214,7 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </thead>
@@ -268,47 +223,24 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </tfoot>
                                             <tbody>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -316,7 +248,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link text-dark" data-toggle="collapse" href="#collapse4">
@@ -332,7 +264,7 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </thead>
@@ -341,47 +273,24 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </tfoot>
                                             <tbody>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -389,7 +298,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link text-dark" data-toggle="collapse" href="#collapse5">
@@ -405,7 +314,7 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </thead>
@@ -414,47 +323,24 @@
                                                     <th>DEO</th>
                                                     <th>Project</th>
                                                     <th>Task</th>
-                                                     <th>Start date</th>
+                                                    <th>Start date</th>
                                                     <th>End date</th>
                                                 </tr>
                                             </tfoot>
                                             <tbody>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
-                                                </tr><tr>
-                                                    <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     <td></td>
-                                                     
+                                                    <td>John</td>
+                                                    <td>Abc</td>
+                                                    <td>Uplading Data</td>
+                                                    <td>15-02-2018</td>
+                                                    <td>15-02-2050</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -469,7 +355,7 @@
 
 
 
-                   
+
                 </div>
                 <!-- /.container-fluid -->
 

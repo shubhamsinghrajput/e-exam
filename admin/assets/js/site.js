@@ -19,9 +19,9 @@ $(document).ready(function () {
     var ht = $(".top-right").html();
     $(".que-viewport").prepend("<div class='top-right mb-top-right clearfix'> </div>").find(".top-right").prepend(ht);
     /*---------------------------------------*/
- 
 
-    /*-----------------------------------------------*/
+
+    /*---------------------------------------*/
     $(".btn-slide").click(function () {
         var x = $(".que-viewport").offset().left;
         if (x >= $(window).width()) {
@@ -36,17 +36,17 @@ $(document).ready(function () {
         });
 
     });
-    /*------------------------------------*/
+    /*---------------------------------------*/
 
     var navCount = $(".menu.navbar-nav").find(".nav-link").length;
-    for(i = 1; i <= navCount ; i++){
-        var a = $(".menu.navbar-nav .nav-item:nth-child("+i+")" ).find(".nav-link").attr('title');
-         if($("body").hasClass(a)){
-           $(".nav-link[title="+a+"]").addClass("active")
-         };
+    for (i = 1; i <= navCount; i++) {
+        var a = $(".menu.navbar-nav .nav-item:nth-child(" + i + ")").find(".nav-link").attr('title');
+        if ($("body").hasClass(a)) {
+            $(".nav-link[title=" + a + "]").addClass("active")
+        };
     }
     /*------------------Add a toggle icon in card-header------------------*/
-        
-  
+ 
+
     /*------------------------------------*/
 });
